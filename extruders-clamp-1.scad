@@ -78,7 +78,7 @@ module extrudersclamp_face(r = 11/2, folga = 0.5, h = 6, largura_total = 84, com
         if(cover){
           difference(){
             circle(r = 50);
-            circle(r = 20);
+            circle(r = 20-folga/2);
           }
         }
       }
@@ -109,9 +109,9 @@ module extrudersclamp_cover(){
 }
 
 //descomente para ver no carrinho
-
+/*
 color("red") 
-translate([XCarPosition, 0, XCarriage_height-2*thickness]){
+translate([XCarPosition-0.4, 0, XCarriage_height-2*thickness]){
   rotate([0,0,90]){
     translate([0,0,6])
     extrudersclamp();
@@ -120,11 +120,11 @@ translate([XCarPosition, 0, XCarriage_height-2*thickness]){
   }
 }
 %XCarriage();
-
+*/
 //descomente para ver apenas a peça
-/*
+
 extrudersclamp();
 
 translate([0,0,6])
 extrudersclamp_cover();
-*/
+
