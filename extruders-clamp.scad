@@ -53,27 +53,27 @@ module extrudersclamp(r1 = 12/2, r2 = 16/2, h = 12, largura_total = 84, comprime
       union(){
         for (i=[-1,1]){
           //
-          translate([i*largura_total/10,0,-4.5/2])
+          translate([i*largura_total/10,0,-4.4/2])
           if (pescoco){
             hull(){
               translate([0,0,0])
               cylinder(h = 0.1, r = r2, $fn=80);
 
-              translate([0,0,4.3])
+              translate([0,0,4.4])
               cylinder(h = 0.1, r = r1, $fn=80);
             }
           } else {
 
-            cylinder(h = 4.5, r = r2, $fn=80);
+            cylinder(h = 4.4, r = r2, $fn=80);
           }
 
           //define profundidade do sulco para encaixe do extrusor
-          translate([i*largura_total/10,0,4.5/2-0.2])
-          cylinder(h = (h-4.5)/2+0.4, r = r2, $fn=80);
+          translate([i*largura_total/10,0,4.4/2-0.2])
+          cylinder(h = (h-4.4)/2+0.4, r = r2, $fn=80);
 
           //furo para encaixe dos extrusores
-          translate([i*largura_total/10,0,-(h-4.5)/2-4.5/2-0.1])
-          cylinder(h = (h-4.5)/2+0.2, r = r2, $fn=80);
+          translate([i*largura_total/10,0,-(h-4.4)/2-4.4/2-0.1])
+          cylinder(h = (h-4.4)/2+0.2, r = r2, $fn=80);
 
           //furo parafusos que prendem os bicos
           translate([-largura_total/3.5*i,7, 0])
@@ -143,11 +143,11 @@ translate([XCarPosition, 0, XCarriage_height-2*thickness]){
 largura_total = 84;
 
 for (i=[-1,1])
-/*
+
   translate([XCarPosition, 0, XCarriage_height-36])
   rotate([0,0,90])
-/*
-  translate([0,0,-24])
+
+//  translate([0,0,-24])
 
   translate([i*18,-29/2, 6])
   rotate([0, i*90])

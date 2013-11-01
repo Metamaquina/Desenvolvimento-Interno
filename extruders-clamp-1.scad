@@ -27,7 +27,7 @@ include <lm8uu_bearing.h>
 include <nuts.h>;
 use <Metamaquina2.scad>
 
-module extrudersclamp_face(r1 = 12/2, r2 = 11/2, h = 6, largura_total = 84, comprimento_total = 23, pescoco = false, abertura = 3, separador = 1, distancia = 25){
+module extrudersclamp_face(r = 11/2, folga = 0.5, h = 6, largura_total = 84, comprimento_total = 23, cover = false, abertura = 3, separador = 1, distancia = 26){
   translate([0,-0.5,h/2])
   difference(){
 
@@ -61,20 +61,26 @@ module extrudersclamp_face(r1 = 12/2, r2 = 11/2, h = 6, largura_total = 84, comp
       for (i=[-1,1]){
         //furo que prende o extrusor
         translate([i*distancia/2,0])
-        circle(r = r2, $fn=80);
+        circle(r = r+folga/2, $fn=80);
           
         //define profundidade do sulco para encaixe do extrusor
         translate([i*distancia/2,0])
-        circle(r = r2, $fn=80);
+        circle(r = r+folga/2, $fn=80);
 
         //furo para encaixe dos extrusores
         translate([i*distancia/2,0])
-        circle(r = r2, $fn=80);
+        circle(r = r+folga/2, $fn=80);
 
         //furo parafusos que prendem no carrinho
         translate([i*32,0])
         circle(r = m4_diameter/2, $fn=80);   
         
+        if(cover){
+          difference(){
+            circle(r = 50);
+            circle(r = 20);
+          }
+        }
       }
     }
   }
@@ -92,25 +98,33 @@ module extrudersclamp(){
   BillOfMaterials(category="Lasercut wood", partname="Extruders Clamp", ref="");
   material("lasercut")
   linear_extrude(height=6)
-  extrudersclamp_face();
+  extrudersclamp_face(cover=false);
 }
 
+module extrudersclamp_cover(){
+  BillOfMaterials(category="Lasercut wood", partname="Extruders Clamp", ref="");
+  material("lasercut")
+  linear_extrude(height=6)
+  extrudersclamp_face(cover=true);
+}
 
 //descomente para ver no carrinho
-/*
+
 color("red") 
 translate([XCarPosition, 0, XCarriage_height-2*thickness]){
   rotate([0,0,90]){
-    extrudersclamp();
     translate([0,0,6])
     extrudersclamp();
-    mirror([0,1,0]){extrudersclamp(pescoco=false);}
+    translate([0,0,12])
+    extrudersclamp_cover();
   }
 }
 %XCarriage();
-*/
 
 //descomente para ver apenas a peça
+/*
+extrudersclamp();
 
-//extrudersclamp();
-
+translate([0,0,6])
+extrudersclamp_cover();
+*/
