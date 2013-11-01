@@ -17,9 +17,10 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-include <extruders-clamp-1.scad>
+use <extruders-clamp-1.scad>
 
-for(i=[-1,1]){
-  translate([0,i*(23/2+0.5)+0.5,0])
-  extrudersclamp_face();
-}
+translate([0,1*(23/2+0.5)+0.5,0])
+extrudersclamp_face();
+
+translate([0,-1*(23/2+0.5)-0.5,0])
+extrudersclamp_face(cover=true);
