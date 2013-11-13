@@ -2,6 +2,7 @@ import time, getopt, sys, platform, os, printcore, itertools
 p=printcore.printcore('/dev/ttyACM0',115200)
 
 p.connect()
+
 time.sleep(5)
 
 amplitude=1

@@ -1,0 +1,1 @@
+~/devel/Printrun/Slic3r_gnulinux/bin/slic3r --load ~/devel/Printrun/profiles/printer/Metamaquina2pro.ini --load ~/devel/Printrun/profiles/print/Padrao.ini --load ~/devel/Printrun/profiles/filament/ABS.ini --fill-density 0.2 --filament-diameter 1.75 Traffic_Cone.amf -o Traffic_Cone_filament1.75_infill0.2_ABS_B.gcode
