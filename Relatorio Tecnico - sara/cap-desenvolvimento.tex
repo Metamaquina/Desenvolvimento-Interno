@@ -1,0 +1,879 @@
+%% ------------------------------------------------------------------------- %%
+\chapter{Projetos Realizados}
+\label{cap:projetos}
+
+Neste capítulo serão apresentados os projetos e protótipos realizados pela autora durante a sua atuação na \emph{Metamáquina}. A documentação relacionada é apresentada nos apêndices \ref{ape:desenhos} e \ref{ape:software}.\\
+
+%% ------------------------------------------------------------------------- %%
+
+\section{Réguas de Calibração}
+\label{sec:reguas-calibracao}
+
+A impressora \ac{3D} possui barras lisas que são posicionadas, utilizando-se uma peça plástica denominada \emph{bar clamp}, em barras roscadas. Estas barras são apresentadas na cor azul na figura \ref{fig:barras-lisas}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{barras-lisas} 
+  \caption{Barras lisas a serem posicionadas com precisão.}
+  \label{fig:barras-lisas} 
+\end{figure}
+
+O processo de calibração destas barras é realizado utilizando-se um paquímetro e rosqueando as porcas adjacentes ao \emph{bar-clamp} até ficar prender com a medida exata. Com a utilização das réguas de calibração este processo se torna muito mais rápido e preciso.\\
+
+O modelo das réguas e seu posicionamento na impressora \ac{3D} é apresentado nas figuras \ref{fig:regua-frente} (vista frontal) e \ref{fig:regua-atras} (vista dorsal).\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{regua-frente} 
+  \caption{Régua de calibração frontal.}
+  \label{fig:regua-frente} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{regua-atras} 
+  \caption{Régua de calibração dorsal.}
+  \label{fig:regua-atras} 
+\end{figure}
+
+A figura \ref{fig:regua-laser} são apresentadas as faces para o corte a \emph{laser} as réguas de calibração.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{regua-laser} 
+  \caption{Faces para o corte a laser das réguas de calibração.}
+  \label{fig:regua-laser} 
+\end{figure}
+
+Infelizmente, estas réguas de calibração não chegaram a ser testadas, já que não foi feito um corte a laser para a elaboração do protótipo.\\
+
+\section{Teste de Barras}
+Foi elaborado um projeto para testar as barras roscadas do eixo Z, a fim de avaliar seus comprimentos e seus graus de empenamento para rejeitar ou aceitar antes da instalação.\\
+
+Foi elaborado um desenho do modelo em \emph{3D} para o teste, apresentado na figura \ref{fig:teste-Z} e seu \emph{script} é apresentado no apêndice \ref{ape:teste-barras}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.2\textwidth]{teste-Z} 
+  \caption{Modelo para o equipamento de teste de barras.}
+  \label{fig:teste-Z} 
+\end{figure}
+
+Foram elaborados dois \emph{scripts} para utilizar um botão acionador, a fim de que um motor rotacione a barra. Um \emph{script} corresponde ao movimento de rotação de forma constante e o outro rotaciona de forma gradual para um lado até parar e faz o mesmo no sentido oposto, continuamente. Estes \emph{scrips} podem ser visualizados no apêndice \ref{ape:teste-barra-cte} e no \ref{ape:teste-barra-grad}.\\
+
+Não foi elaborado um protótipo para este caso, pois o modelo deveria ser aprimorado para ser funcional e poder alocar a fonte e a placa a fim de movimentar o motor e, também, devido ao fato da placa disponível (\emph{Megatronics v1.0}), apresentar problemas para atuar de forma independente do uso do computador.\\
+
+\section{Porta Rolo de Filamento}
+\label{sec:porta-filamento}
+
+A impressora \ac{3D} produzida pela \emph{Metamáquina} possui tecnologia de deposição de polímero através de um bico extrusor. Este polímero é comercializado na forma de rolos de filamento. No mercado existem em dois diâmetros de filamento para impressão \ac{3D}, sendo de 1,75mm ou 3,00mm. A \emph{Metamáquina} produz impressoras para filamentos de 3,00mm.\\
+
+As impressoras da \emph{Metamáquina} podem utilizar como matéria-prima dois polímeros distintos, o \ac{ABS} e o \ac{PLA}, ambos vêm em rolos de mesmas dimensões, portanto, a ideia foi fazer um porta rolo de filamento.\\
+
+A função deste porta rolo de filamento é o de organizar a área da máquina e impedir a presença de nós e travamentos do filamentos, prejudicando a impressão.\\
+
+Este porta rolo de filamento foi elaborado utilizando o mesmo padrão da \emph{Metamáquina}, o material é \ac{MDF}, utilizando-se tecnologia de corte a laser e com barra roscada e porca de finalização tipo domo.\\
+
+Na figura \ref{fig:porta-rolo-modelo} é apresentado o modelo visual do porta-rolo e na figura \ref{fig:porta-rolo-laser} apresenta-se a face elaborada para possibilitar o o corte a laser.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{porta-rolo-modelo} 
+  \caption{Modelo elaborado para o porta rolo de filamento.}
+  \label{fig:porta-rolo-modelo} 
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{porta-rolo-laser} 
+  \caption{Faces para o corte a laser do porta rolo de filamento.}
+  \label{fig:porta-rolo-laser} 
+\end{figure}
+
+Na figura \ref{fig:porta-rolo-prototipo} apresenta-se o protótipo do porta rolo de filamento.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{porta-rolo-prototipo} 
+  \caption{Protótipo elaborado para o porta rolo de filamento.}
+  \label{fig:porta-rolo-prototipo} 
+\end{figure}
+
+Este porta-rolo não foi implementado como produto final, pois, por questões de praticidade de operação e pelo diferente tamanho de rolos de filamento presentes no mercado, é possível torná-lo mais simples e integrado na impressora.\\
+
+\section{Impressora 3D com extrusão dupla}
+\label{sec:impressora}
+
+Para elaborar o projeto da impressora \ac{3D} com extrusão dupla foi aproveitado o projeto da \emph{Metamáquina 2} atual, minimizando-se as alterações a serem implementadas.\\
+
+A seguir serão apresentados os projetos de \emph{hardware} e \emph{software} da impressora \ac{3D} e alguns de seus resultados finais de peças de teste.\\
+
+\subsection{Hardware}
+
+Para a elaboração desta impressora, foram efetuadas algumas alterações em relação ao modelo da \emph{Metamáquina 2}, que serão descritas a seguir.\\
+
+Foram instalados dois \emph{kits} da empresa \emph{seemeCNC}, que continham dois extrusores com tubo \emph{Bowden}, dois engates rápidos, dois bicos extrusores de $0,35mm$ e suportes para prender o extrusor e o motor na carcaça da impressora.\\
+
+O tubo \emph{Bowden} consiste em um duto de \ac{PTFE} translúcido que transmite o torque do motor ao filamento e permite a sua extrusão na saída do bico. Esse mecanismo permite utilizar um mecanismo de extrusão mais leve e ágil.\\
+
+Para inserir os \emph{kits} na \emph{Metamáquina} foram necessários efetuar quatro furos na carcaça, visto nas figuras \ref{fig:kit1} e \ref{fig:kit2}, e elaborar um prendedor para os dois extrusores no carro X. Esse prendedor foi modelado e construído em plástico \ac{ABS}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{kit1} 
+  \caption{\emph{Kit} de um dos extrusores preso na carcaça da impressora \ac{3D}.}
+  \label{fig:kit1} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{kit2} 
+  \caption{\emph{Kit} de um dos extrusores preso na carcaça da impressora \ac{3D}.}
+  \label{fig:kit2} 
+\end{figure}
+
+A primeira versão do prendedor é apresentada na figura \ref{fig:extruders-clamp} e a versão final é apresentada nas figuras \ref{fig:extruders-clamp-final-1} e \ref{fig:extruders-clamp-final}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{extruders-clamp} 
+  \caption{Primeira versão do prendedor dos bicos extrusores.}
+  \label{fig:extruders-clamp} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{extruders-clamp-final-1} 
+  \caption{Versão final do prendedor dos bicos extrusores - vista superior.}
+  \label{fig:extruders-clamp-final-1} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{extruders-clamp-final} 
+  \caption{Versão final do modelo do prendedor dos bicos extrusores - visão \ac{3D}.}
+  \label{fig:extruders-clamp-final} 
+\end{figure}
+
+O protótipo do prendedor dos bicos extrusores montado no carro X é apresentado na figura \ref{fig:extruders-clamp-prototipo}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{extruders-clamp-prototipo} 
+  \caption{Protótipo do prendedor dos bicos extrusores.}
+  \label{fig:extruders-clamp-prototipo} 
+\end{figure}
+
+O \emph{script} do modelo do prendedor dos dois bicos extrusores é apresentado no apêndice \ref{ape:prendedor-extrusores}.\\
+
+A impressora final pode ser vista na figura \ref{fig:impressora-2-extrusores}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{impressora-2-extrusores} 
+  \caption{Protótipo da impressora \ac{3D}.}
+  \label{fig:impressora-2-extrusores} 
+\end{figure}
+
+\subsection{Software}
+
+A seguir serão apresentados os ajustes efetuados no \emph{firmware}, \emph{slic3r} e no \emph{software Printrun} para uma impressão com extrusão dupla.\\
+
+\subsubsection{Firmware}
+
+Para elaborar o \emph{firmware} da impressora, foi utilizado o \emph{software Arduíno IDE}.\\
+
+O \emph{Arduíno} é uma plataforma \emph{open-source}, é também denominado um \emph{software livre}, sua programação é inspirada em código \emph{C/C++}. Esse \emph{hardware} foi apresentado em $2005$ com intenção de auxiliar projetos escolares, de forma a ter um orçamento menor que outros sistemas de prototipagem disponíveis naquela época.\\
+
+É um sistema versátil para fazer projetos, é possível utilizar sensores e motores.\\
+
+No \emph{Arduíno} existem módulos expansivos chamados de \emph{Shields} que servem para estender a sua capacidade. Existe vários tipos de \emph{Shields} (\emph{wifi}, \emph{Bluetooth}, motor, \emph{ethernet} etc).\\
+
+O \emph{software} do \emph{Arduíno IDE} é uma aplicação multiplataforma escrita em \emph{Java}, na qual é derivada dos projetos \emph{Processing} e \emph{Wiring}. Para a estrutura de um arquivo é necessário declarar duas funções:
+\begin{itemize}
+\item  \emph{setup()} - Inserida no inicio, na qual pode ser usada para inicializar configuração;
+\item \emph{loop()} - Chamada para repetir um bloco de comandos ou esperar até que seja desligada.
+\end{itemize}
+
+Para o caso da elaboração da impressora \ac{3D} com extrusão dupla, foi utilizado o como base o \emph{firmware} do modelo atual da \emph{Metamáquina} e foi compilado utilizando-se o \emph{software Arduíno IDE}, cuja interface é apresentada na figura \ref{fig:arduino}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{arduino} 
+  \caption{Interface do \emph{software Arduíno}.}
+  \label{fig:arduino} 
+\end{figure}
+
+As alterações foram feitas no arquivo \emph{configuration.h} do \emph{firmware Repetier}, que é apresentado no apêndice \ref{ape:configuration.h}.\\
+
+Basicamente, o que foi alterado consiste no número de extrusores e no de passos por milímetro, devido ao fato do extrusor da empresa \emph{seemeCNC} possuir sistema \emph{direct drive}, ou seja, inexiste o sistema de redução entre engrenagens, o parafuso trator está acoplado diretamente no eixo do motor. \\
+
+Outra modificação importante é o filamento utilizado pela impressora \ac{3D} ser mais fino ($1,75mm$).\\
+
+A impressora com extrusão dupla necessita de uma calibração específica para que os dois extrusores possuam o mesmo sistema de coordenadas e o mesmo ponto inicial. Um ponto importante a mencionar é a altura, os dois bicos devem estar na mesma altura para impedir que um deles danifique as peças impressas.\\
+
+Para o ajuste da altura, inicialmente regulou-se rosqueando a porca que prende os extrusores, após utilizou-se o alinhamento do eixo Z, pelos acoplamentos presentes nas barras roscadas, para o ajuste de altura dos bicos extrusores.\\
+
+A seguir, foi feito um ajuste a partir do \emph{software} da impressora, de acordo com a variável \emph{offset} apresentada no arquivo de configuração do \emph{firmware}, vide apêndice \ref{ape:configuration.h}, que ajusta a diferença de coordenada dos eixos X e Y entre os dois extrusores, configurou-se um dos extrusores na origem (0,0) e o segundo, quando estava na origem, sofria o desvio configurado pelo \emph{offset}.\\
+
+\subsubsection{Slic3r}
+
+Para transformar desenhos tridimensionais no formato de leitura da impressora \ac{3D} utiliza-se o \emph{software} \emph{slic3r}\footnote{Este \emph{software} pode ser localizado no sítio \url{http://slic3r.org/}.}.\\
+
+Na \emph{Metamáquina 2} o \emph{$slic3r$} é integrado ao \emph{software} de controle da ipressora, e pode ser encontrado no sítio \url{https://github.com/Metamaquina/Printrun} na pasta \emph{$Slic3r\_gnulinux\_32$} ou \emph{$Slic3r\_gnulinux\_64$} (dependendo do número de \emph{bits} do computador).\\
+
+O \ac{STL} é o formato utilizado pelo \emph{Slic3r} para fatiar sólidos modelados, ele não possui dados de cor, textura ou material.\\
+
+Ao carregar um arquivo do tipo \ac{STL} o \emph{software Printrun} o transforma em um formato específico para impressoras \ac{3D}, o \emph{gcode}, a partir de dados do tipo de filamento(\ac{ABS} ou \ac{PLA}), densidade de recheio e se é necessário criar um suporte para elaborar a peça desejada. Esta janela é apresentada na figura \ref{fig:pronterface-stl-to-gcode}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{pronterface-stl-to-gcode} 
+  \caption{Interface do \emph{Conversão de arquivos \ac{STL} para \emph{.gcode} pelo \emph{Pronterface}}.}
+  \label{fig:pronterface-stl-to-gcode} 
+\end{figure}
+
+No \emph{gcode} o desenho é descrito através de códigos de comandos de temperatura, posição, velocidade. Similares ao de um equipamento \ac{CNC}.\\
+
+O \emph{$slic3r$} deve sofrer pequenos ajustes para imprimir com dois filamentos, tais como incluir o segundo extrusor, ajustar o tamanho do orifício, determinar a temperatura a ser utilizada durante a primeira camada e o restante da impressão, controlar a vazão de plástico extrudado \emph{extruder multiplier} (consiste em uma porcentagem em relação ao valor definido no \emph{firmware}), dentre outros ajustes.\\
+
+Tomou-se por base o padrão da \emph{Metamáquina 2}, excetuando-se o valor de temperatura de extrusão, que foi largamente testado, este sofre variações de acordo com as características de material, cor e transparência de cada filamento.\\
+
+Outro ajuste consistiu na alteração do diâmetro do filamento, de $3,00mm$ para $1,75mm$.\\
+
+Embora não tenha sido utilizado, é possível ajustar a distância entre extrusores pelo \emph{slic3r} e não apenas pelo \emph{firmware} da impressora.\\
+
+Inicialmente não foram utilizados os ajustes do item \emph{extruder multiplier} do \emph{slic3r}, porém, posteriormente foi averiguada a sua importância para imprimir com filamentos de maior fluidez, tais como os amarelos e alguns translúcidos. Isto ocorre pois alguns filamentos fluem mais que outros na temperatura de impressão, e prejudicam a qualidade das peças produzidas.\\
+
+Suas telas são apresentadas nas figuras \ref{fig:tela-slic3r-1}, \ref{fig:tela-slic3r-2}, \ref{fig:tela-slic3r-3} e \ref{fig:tela-slic3r-4}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{tela-slic3r-1} 
+  \caption{Tela geral do \emph{Slic3r}.}
+  \label{fig:tela-slic3r-1} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{tela-slic3r-2} 
+  \caption{Tela do \emph{Slic3r} de propriedades de impressão.}
+  \label{fig:tela-slic3r-2} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{tela-slic3r-3} 
+  \caption{Tela do \emph{Slic3r} sobre propriedades do filamento.}
+  \label{fig:tela-slic3r-3} 
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{tela-slic3r-4} 
+  \caption{Tela do \emph{Slic3r} sobre propriedades da impressora.}
+  \label{fig:tela-slic3r-4} 
+\end{figure}
+
+Na criação de um arquivo \emph{gcode} pelo \emph{Slic3r} para uma impressão com um equipamento de dupla extrusão, cada extrusor é tratado como um arquivo \ac{STL} distinto, é feita a combinação dos dois arquivos, sendo o primeiro selecionado o correspondente ao extrusor $0$ e o segundo ao extrusor $1$.\\
+
+Os dois \acp{STL} após serem combinados geram um arquivo \emph{AMF} e, após sua inclusão no \emph{Slic3r} é possível gerar um arquivo \emph{gcode} que engloba os dois extrusores.\\
+
+Os comandos para o extrusor $0$ são descritos com preâmbulo $T0$ e, para o extrusor $1$, seu correspondente $T1$. Um trecho de um arquivo \emph{gcode} é apresentado abaixo:\\
+
+\begin{lstlisting}[frame=trbl, mathescape]
+T0
+G1 Z0.350 F7800.000
+G1 F1800.000 E-2.00000
+$\vdots$
+T1
+G1 E-2.00000
+G1 X92.524 Y166.021 F7800.000
+G1 F1800.000 E2.00000
+\end{lstlisting}
+
+Enfim, o \emph{slic3r} é uma ferramenta poderosa que permite transformar desenhos \ac{3D} em formato legível pela impressora e é capaz de trabalhar com extrusão múltipla, sendo um meio eficiente e prático para sua implementação em impressoras \ac{3D}.\\ 
+
+\subsubsection{Pronterface}
+
+O \emph{Pronterface} consiste na interface gráfica de acompanhamento e controle da impressora \ac{3D}. Para adquirir basta baixá-lo utilizando-se o link \url{http://metamaquina.com.br/downloads/}. A tela é apresentada na figura \ref{fig:tela-pronterface}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{tela-pronterface} 
+  \caption{Tela do \emph{Pronterface}.}
+  \label{fig:tela-pronterface} 
+\end{figure}
+
+É possível passar comandos manuais, realizar a calibração de altura, acompanhar o aquecimento da base e do bico extrusor e visualizar as partes que estão sendo impressas \emph{online} durante todo o tempo de operação do equipamento.\\
+
+\subsection{Impressões Realizadas}
+
+Foram impressas peças em duas cores a fim de calibrar a impressora, esta seção apresentará as fotos de peças prontas e os principais problemas encontrados durante a impressão de testes de calibração e peças.\\
+
+Na figura \ref{fig:teste0} é apresentada a primeira peça impressa, conhecida como o chaveiro de teste da \emph{Metamáquina}\footnote{Este modelo pode ser encontrado no sítio \url{https://github.com/Metamaquina/Printrun}}, foi impresso com filamento \ac{ABS} na cor branca.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste0} 
+  \caption{Primeira peça impressa.}
+  \label{fig:teste0} 
+\end{figure}
+
+Após, foram efetuados testes de calibração para dois filamentos, o modelo é encontrado no sítio \url{http://www.thingiverse.com/thing:124450}. Na figura \ref{fig:teste1} é apresentada uma impressão de duas cores, utilizando filamentos de \ac{ABS} na cor branca e rosa.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste1} 
+  \caption{Impressão em \ac{ABS} em duas cores.}
+  \label{fig:teste1} 
+\end{figure}
+
+Por fim, é apresentado o teste de uma peça de duas cores, filamento em \ac{ABS} branco e em \ac{PLA} laranja na figura \ref{fig:teste2}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste2}
+  \caption{Impressão em \ac{ABS} e \ac{PLA}.}
+  \label{fig:teste2}
+\end{figure}
+
+Durante a tentativa de extrusão de peças maiores ocorreram problemas de derretimento do filamento dentro da conexão do tubo \emph{Bowden}. Para resolver este problema é necessário utilizar \emph{coolers}, a fim de refrigerar os engates e impedir a torção do filamento e seu emperramento.\\
+
+Também ocorreram problemas de derretimento do filamento ao passar pelo parafuso trator, caso de ocorrência rara. Para resolvê-los é necessário utilizar \emph{coolers}, a fim de refrigerar os engates e impedir a torção do filamento e seu emperramento. Outra solução possível é a de diminuir a corrente no motor.\\
+
+Estas soluções descritas anteriormente ainda não foram testadas, fator necessário para dar continuidade a este produto.\\
+
+Também é necessário comentar que estes problemas não foram encontrados para todos os filamentos testados, apenas para as cores azul-escuro e prata.\\
+
+Outros problemas encontrados foram a perda de passo, corrigida com o aumento de temperatura do bico extrusor, e o descolamento da base, corrigida com o aquecimento da base ou utilização de fita de poliamida tipo \emph{Kapton}. Os filamentos translúcidos apresentaram maiores problemas.\\
+
+Outra solução a fim de aprimorar a qualidade de impressão para os filamentos é a de alterar o fator multiplicativo de extrusão presente no \emph{Slic3r}, que não foi abordado.\\
+
+Por fim, com este protótipo, tornou-se possível imprimir peças em dois materiais e/ou cores diferentes, abrindo um novo rumo na área de impressão \ac{3D} na \emph{Metamáquina}.\\
+
+\chapter{Testes Realizados} 
+\label{cap:testes}
+
+Foram realizados diversos testes a fim de ter maior controle de qualidade para o material recebido e para solucionar possíveis óbices encontrados com determinadas alterações, tais como: a da composição e fabricante de filamentos, a de termistores e problemas de soltura de porcas e parafusos da carcaça e partes componentes da impressora.\\
+
+A seguir serão descritos os maiores desafios enfrentados e os experimentos efetuados em bancadas de testes.
+
+\section{Temperatura}
+\label{sec:temperatura}
+
+A bancada de testes de termistores surgiu devido ao fato destes serem comprados em lotes, da marca \emph{Addtherm}, e o modelo ter sido alterado.\\
+
+Embora seja encontrado na folha de dados do fabricante os parâmetros de $\beta$ e $R_0$, a tabela obtida a partir destes dados não se mostraram compatíveis.\\
+
+Para o primeiro lote, a tabela de temperaturas era conhecida, pois foram levantados os pontos experimentalmente. Entretanto, para outros dois lotes e para os futuros era importante a elaboração de experimentos para a aferição da temperatura medida pelo termistor.\\
+
+A seguir serão apresentados alguns conceitos básicos sobre o tipo de termistor utilizado pela \emph{Metamáquina} e os testes efetuados, a fim de corrigir a tabela de temperatura dos termistores utilizados.\\
+
+\subsection{Conceitos}
+
+Termistores consistem em um tipo de resistores que sofrem grandes variações de acordo com a mudança de temperatura. Os resistores utilizados na \emph{Metamáquina} são de vidro e podem ser visualizados na figura \ref{fig:termistor}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{termistor}
+  \caption{Termistores de vidro da \emph{addtherm}.}
+  \label{fig:termistor}
+\end{figure}
+
+O intervalo de temperatura medido pelo termistor é adequado ao utilizado durante a impressão, que oscila entre $150-250ºC$.\\
+
+Termistores seguem um comportamento de variação da resistência com a temperatura, pode-se observar que o termistor de vidro da \emph{Addtherm} é considerado um \ac{NTC}, onde uma variação positiva de temperatura causa uma variação negativa na sua resistência.\\
+
+Duas equações largamente utilizadas para a modelagem destes termistores são as de \emph{Steinhart-Hart} e sua versão simplificada, a do parâmetro $\beta$, que é largamente utilizada pelos fabricantes. A equação de \emph{Steinhart-Hart} é apresentada na \ref{eq:SH}.\\
+
+Os parâmetros de $a$, $b$ e $c$ são denominados parâmetros de \emph{Steinhart-Hart} devem ser especificados para cada termistor, normalmente fornecidos pelo fabricante ou obtidos através de experimentos \cite{McGee}.\\
+
+\begin{equation}\label{eq:SH}
+\frac{1}{T}=a+b.\ln(R)+c.\ln(R)^3
+\end{equation}
+
+A equação do parâmetro $\beta$ é apresentada na \ref{eq:beta} \cite{McGee}:\\
+
+\begin{equation}\label{eq:beta}
+\frac{1}{T}=\frac{1}{T_0}+\frac{1}{\beta} .\ln\left( \frac{R}{R_0}\right) 
+\end{equation}
+
+Ao instalar o termistor em uma placa, tal qual a utilizada pela \emph{Metamáquina}, no caso uma \emph{Rambo v1.0}, o valor lido é denominado $RawADC$.\\
+
+Portanto, o valor lido pela placa é um sinal de corrente, para ser transformado em valor de temperatura ele passa por três transformações. A primeira é devida à transformação do sinal digital para analógico. A segunda é obtida a partir da equação proveniente do diagrama esquemático (figura \ref{fig:termistores-esquematico}), que consiste em um sinal lido com duas resistências em paralelo. A segunda é obtida através da equação do parâmetro $\beta$, descrito anteriormente \ref{eq:beta}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{termistores-esquematico}
+  \caption{Desenho esquemático de um dos termistores da placa \emph{Rambo}.}
+  \label{fig:termistores-esquematico}
+\end{figure}
+
+Desta forma, podemos partir para os experimentos realizados, levantar curvas de aferição intra e extra lotes e averiguar a qualidade e a precisão do produto recebido.\\
+
+\subsection{Experimentos}
+
+Foram realizados testes para os três lotes de termistores, o primeiro já previamente adaptado e em estado funcional e os demais, que apresentaram problemas e tiveram de ser aferidos.\\
+
+Um termopar tipo J foi utilizado como medidor padrão de temperatura, sendo considerado como o elemento que apresentava a temperatura correta a ser lida. Todos os termistores foram calibrados com este instrumento.\\
+
+Os testes foram realizados utilizando um termopar e um termistor sendo lido pelo próprio \emph{Pronterface} da impressora, o \emph{firmware} da placa \emph{Rambo} permite mensurar a temperatura de até dois termistores concomitantemente. Este teste poderia ser aprimorado, mas inicialmente existiam limitações físicas, devido à proximidade do orifício onde era alocado o termistor e a resistência, ambos devidamente instalados no bico extrusor.\\
+
+A placa \emph{Rambo} possui quatro entradas para termistores\cite{Rambo}, ou seja, estes ensaios podem ser expandidos para ser possível a leitura deste número de termistores concomitantemente. Foi elaborado um \emph{script} para o \emph{firmware} deste experimento e pode ser observado no apêndice \ref{ape:teste-termistores}.\\
+
+O grupo de termistores testados pode ser observado na figura \ref{fig:teste-termistores}, que corresponde a um bico extrusor com múltiplos furos e extrusores instalados.\\
+
+Estes termistores eram presos em barras metálicas e inseridos em um recipiente, a fim de proteger o experimento de interferências externas, além de proteção pessoal, já que foram testados em altas temperaturas impróprias para o contato humano.\\
+
+Foi utilizado o controle de temperatura pelo \emph{software Pronterface}, anotado o valor de \emph{RawADC} correspondente ao termistor a ser aferido e o valor de temperatura do termopar.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.4\textwidth]{teste-termistores}
+  \caption{Teste de termistores.}
+  \label{fig:teste-termistores}
+\end{figure}
+
+Com os valores originados pelos experimentos foi possível construir o gráfico \ref{fig:grafico-termistores}, nota-se a divergência entre os valores medidos para cada lote, este era o principal motivo de leituras errôneas e impressões de má qualidade e até danos à impressora \ac{3D}.\\
+
+\begin{figure}[!ht]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[height=12cm,width=12cm,grid=major,xlabel=rawADC,ylabel=T]
+			\addplot + [line join=round, mark=*]
+			coordinates	{
+			(23		,	300)
+			(30.25	,	280)
+			(35		,	270)
+			(40.5	,	260)
+			(47.25	,	250)
+			(55.5	,	240)
+			(65.25	,	230)
+			(77		,	220)
+			(91.25	,	210)
+			(108.5	,	200)
+			(129.75	,	190)
+			(155.25	,	180)
+			(186	,	170)
+			(222.75	,	160)
+			(266.75	,	150)
+			(318	,	140)
+			};
+			\addlegendentry	{termistor lote 1}
+			
+			\addplot + [line join=round, mark=*]
+			coordinates	{
+			(264		,	147.08)
+			(212		,	158.88)
+			(202		,	161.48)
+			(184		,	166.50)
+			(169		,	171.07)
+			(155		,	175.72)
+			(129		,	185.60)
+			(109		,	194.66)
+			(91		,	204.37)
+			(84		,	208.67)
+			(77		,	213.35)
+			(72		,	216.96)
+			(64		,	223.30)
+			(61		,	225.88)
+			(55		,	231.45)
+			(51		,	235.51)			
+			};
+			\addlegendentry {termistor lote 2}
+
+			\addplot + [line join=round, mark=*, green,  mark options={color=green}]
+			coordinates	{			
+			(306.00	,	149.07)
+			(285.00	,	153.21)
+			(263.00	,	157.89)
+			(244.00	,	162.26)
+			(226.00	,	166.73)
+			(210.00	,	171.00)
+			(193.00	,	175.92)
+			(179.00	,	180.31)
+			(163.00	,	185.76)
+			(153.00	,	189.45)
+			(139.00	,	195.04)
+			(128.00	,	199.85)
+			(120.00	,	203.61)
+			(110.00	,	208.68)
+			(101.00	,	213.65)
+			(94.00	,	217.83)
+			(87.00	,	222.34)
+			(80.00	,	227.23)
+			(75.00	,	230.99)
+			(70.00	,	235.01)			
+			};
+			\addlegendentry {termistor lote 3}
+		\end{axis}
+	\end{tikzpicture}
+  \caption{Média dos resultados dos ensaios para os três lotes de termistores.}
+  \label{fig:grafico-termistores}
+\end{figure}
+
+Com estes dados foram consideradas três tabelas a serem utilizadas para seu respectivo lote, solucionando a maior parte dos problemas de impressão encontrados.\\
+
+\section{Vibração}
+\label{sec:vibracao}
+
+Outro teste realizado foi o de vibração, necessário devido à ocorrência de soltura de porcas, arruelas e parafusos da carcaça e partes componentes da impressora \ac{3D}.\\
+
+O teste teve $474$ horas de duração, e consistiu em movimentar o carro extrusor ao longo do eixo X em movimentos curtos e rápidos, a fim de provocar uma forte vibração por toda a impressora.\\
+
+Foram elaborados dois \emph{scripts} em linguagem \emph{Python}, apresentados no apêndice \ref{ape:teste-vibracao}. Para este teste era importante criar um sistema repetitivo de uma sequência de movimentos. Por este motivo, descartou-se a possibilidade de utilizar o \emph{Printrun}, por e preferiu-se utilizar a ferramenta \emph{Printcore} através do uso do terminal.\\
+
+Foi elaborado um arquivo \emph{gcode} que determinava a sequência a ser repetida, ou seja, a vibração de ida desde a origem até o fim do curso X e a volta até a origem. Este arquivo é apresentado no apêndice \ref{ape:teste-vib-gcode}.\\
+
+Para transformar este arquivo para o formato \emph{gcode} é necessário compilá-lo utilizando a seguinte sintaxe via terminal:
+
+\begin{lstlisting}[frame=trbl]
+$	cd /[Caminho onde se encontra o arquivo.py]
+$	python [arquivo.py]
+\end{lstlisting}
+
+O mesmo roteiro deve ser utilizado para compilar outros arquivos em \emph{Python}.
+
+Um outro arquivo utiliza o aplicativo \emph{Printcore} (que está embutido no \emph{Pronterface}, porém não tem interface gráfica), para o controle da impressora, conectando e enviando sinais mandatórios de posição, de acordo com o \emph{gcode} apresentado anteriormente. Este arquivo é ilustrado no apêndice \ref{ape:teste-vib-pcore}. Esta forma permite a geração de comandos e o envio para a impressora infinitamente, este é o motivo de ter sido utilizada.\\
+
+Foi utilizada uma carcaça de um modelo antigo de impressora \ac{3D} da \emph{Metamáquina} e instalou-se o carro com o sistema de extrusão de filamento, que não seria funcional neste caso. Consideraram-se as peças deste carro como as que mais se desprendiam. Assim, nestes pontos críticos, foi utilizada cola trava-rosca para fins de teste.\\
+
+A máquina utilizada para o teste de vibração é apresentada na figura \ref{fig:teste-vibracao}. As regiões com utilização de cola trava-rosca são apresentadas na figura \ref{fig:vib-disposicao}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste-vibracao}
+  \caption{Impressora Utilizada para o Teste de Vibração.}
+  \label{fig:teste-vibracao}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-disposicao}
+  \caption{Disposição dos principais elementos testados.}
+  \label{fig:vib-disposicao}
+\end{figure}
+
+As figuras \ref{fig:vib-243-bastante}, \ref{fig:vib-243-pouco}, \ref{fig:vib-243-pouco}, apresentam o resultado final do teste dos elementos com cola da marca \emph{Loctite}, de número $24$3. A figura \ref{fig:vib-tekbond-128} apresenta o resultado utilizando-se cola de alto torque, da marca \emph{Tek Bond} número $128$ de alta resistência, aplicada nos parafusos do motor do extrusor.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-243-bastante}
+  \caption{Parafuso com porca com grande quantidade de cola trava-rosca \emph{Loctite 243}.}
+  \label{fig:vib-243-bastante}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-243-pouco}
+  \caption{Parafuso com porca com pouca quantidade de cola trava-rosca \emph{Loctite 243}.}
+  \label{fig:vib-243-pouco}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-tekbond-128}
+  \caption{Parafusos com porca com cola trava-rosca \emph{Tek Bond 128} - identificados em vermelho.}
+  \label{fig:vib-tekbond-128}
+\end{figure}
+
+Para fins comparativos, em um dos parafusos foi utilizada uma porca parloque (auto-travante) e em outro parafuso foi instalada uma porca comum, ambos são apresentados nas figuras \ref{fig:vib-nada} e \ref{fig:vib-parloque}. Nenhuma das porcas se soltaram.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-nada}
+  \caption{Parafuso com porca comum.}
+  \label{fig:vib-nada}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-parloque}
+  \caption{Parafuso com porca comum.}
+  \label{fig:vib-parloque}
+\end{figure}
+
+A cola trava-rosca \emph{Loctite} $243$ é de alto torque e não permite a desmontagem caso seja necessário. Os dados técnicos desta cola podem ser encontrados na referência \cite{loctite}.\\
+
+Embora as regiões monitoradas não tenham se soltado durante a realização do teste, ocorreram algumas avarias importantes a serem destacadas, tais como a queda de parafusos da carcaça e o afrouxamento da correia do carro extrusor.\\
+
+As regiões onde foram aplicadas as colas não se soltaram, esta solução mostrou ser eficaz e passível de ser aplicada, principalmente nas regiões onde os parafusos se soltam mais facilmente ou necessitam de uma colocação com folga.\\
+
+Outra solução, mais aplicada para a carcaça e peças que utilizam encaixes de \ac{MDF}, com porcas foi utilizada pela empresa \emph{seemeCNC} e mostrou-se interessante e, portanto, também sugerida. Trata-se de alterar a dimensão destes encaixes (denominados \emph{T-slots}) para permitir a entrada da porca na sua região sextavada mais estreita, impedindo a sua rotação e facilitando a sua montagem.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{vib-seemeCNC}
+  \caption{\emph{T-slot} justo para a porca auto travante da empresa \emph{seemeCNC} \cite{seemeCNC}.}
+  \label{fig:vib-seemeCNC}
+\end{figure}
+
+Vale lembrar que inicialmente a \emph{Metamáquina 2} era montada com porcas comuns, após a verificação da soltura de partes foram implementadas as porcas auto travantes e após a cola. A porca auto travante é de difícil montagem, tornando o processo moroso. A cola auto travante também apresenta desvantagens, tais como apresentar forte odor, saber aplicar e dosar a quantidade correta.\\
+
+Outro teste que poderia ter sido implementado para melhor avaliar a soltura de porcas é o transporte da impressora \ac{3D} em largas distâncias, já que notou-se a soltura antes de chegar ao cliente.\\
+
+\section{Extrusão e Retração}
+\label{sec:extrusao-retracao}
+
+A ideia da elaboração do teste de extrusão e retração surgiu devido a problemas de superaquecimento e derretimento do filamento durante sua passagem pelo parafuso trator. Este teste consistiu na elaboração de uma sequência de extrusões e retrações de forma contínua, com duração de algumas horas.\\
+
+O \emph{Pronterface} foi carregado com um arquivo, de formato \emph{gcode}, elaborado a partir de um arquivo com formato \emph{Python}, apresentado no apêndice \ref{ape:teste-extrusao}.\\
+
+Para compilá-lo utilizou-se a mesma sintaxe via terminal do teste de vibrações:\\
+
+\begin{lstlisting}[frame=trbl]
+$	cd /[Caminho onde se encontra o arquivo.py]
+$	python [arquivo.py]
+\end{lstlisting}
+
+Foi utilizada uma carcaça de uma impressora \ac{3D} com extrusor fixo para fazer o teste, implementou-se uma sequência variável de extrusões e retrações, simulando o comportamento de uma impressão complexa.\\
+
+Notou-se que, inicialmente, durante a extrusão, o filamento parava de sair e era danificado pelo parafuso trator, repetindo o óbice enfrentado durante a operação das máquinas. Porém, ao se ajustar a temperatura, de acordo com os valores obtidos através dos testes de temperatura \ref{sec:temperatura} este desafio foi resolvido.\\
+
+Também foi testada a extrusão utilizando-se tubo \emph{Bowden}, verificado nas imagens \ref{fig:teste-extrusao} e \ref{fig:teste-extrusao-detalhe}. Estes ensaios não foram conclusivos devido ao fato do material do tubo utilizado (polietileno), ser inadequado para esta finalidade (o correto é de \ac{PTFE}).\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste-extrusao}
+  \caption{Equipamento utilizado para o teste de extrusão adaptado para uso de tubo \emph{Bowden}.}
+  \label{fig:teste-extrusao}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste-extrusao-detalhe}
+  \caption{Detalhe do ensaio de extrusão com tubo \emph{Bowden}.}
+  \label{fig:teste-extrusao-detalhe}
+\end{figure}
+
+\section{Teste de Filamentos} %TODO
+\label{sec:teste-fil}
+
+Ao montar os \emph{kits} dos extrusores da empresa \emph{seemeCNC}, notou-se que na parte interna do extrusor havia um tubo de \ac{PTFE} cortado transversalmente.\\
+
+Assim, surgiu a ideia de flexibilizar a \emph{Metamáquina 2}, que utiliza filamento de $3,00mm$ para que, numa simples inserção de um tubo de \ac{PTFE} cortado transversalmente, seja capaz de imprimir com filamentos de $1,75mm$.\\
+
+Este procedimento de conversão, que consiste em inserir este tubo, é simples e rápido, além de não ser necessário desmontar o bico extrusor da impressora para reverter este processo.\\
+
+Inicialmente foi realizada a impressão a partir de um filamento de $3,00mm$ \ac{PLA} cor amarela apresentada pelas figuras \ref{fig:impressao-3mm} e \ref{fig:peca-3mm}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{impressao-3mm}
+  \caption{Procedimento de impressão para filamento de $3,00mm$.}
+  \label{fig:impressao-3mm}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{peca-3mm}
+  \caption{Peça final impressa.}
+  \label{fig:peca-3mm}
+\end{figure}
+
+Para realizar a conversão para utilizar filamentos de $1,75mm$ basta utilizar o tubo apresentado na figura \ref{fig:tubo-conversor}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{tubo-conversor}
+  \caption{Tubo conversor para utilizar filamentos de $1,75mm$.}
+  \label{fig:tubo-conversor}
+\end{figure}
+
+Limpar o extrusor, para eliminar resquícios do filamento de $3,00mm$ da impressão anterior, conforme apresentado pela figura \ref{fig:limpeza}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{limpeza}
+  \caption{Limpeza do bico extrusor.}
+  \label{fig:limpeza}
+\end{figure}
+
+Inseri-lo no extrusor, conforme apresentado pela figura \ref{fig:insercao-tubo} até a altura indicada pela figura \ref{fig:altura-tubo}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{insercao-tubo}
+  \caption{Inserção do tubo conversor.}
+  \label{fig:insercao-tubo}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{altura-tubo}
+  \caption{Visualização final da colocação do tubo conversor.}
+  \label{fig:altura-tubo}
+\end{figure}
+
+A seguir é realizada a impressão com filamento de $1,75mm$ conforme apresentada pela figura \ref{fig:impressao-175mm} e a peça impressa indicada pela figura \ref{fig:peca-175mm}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{impressao-175mm}
+  \caption{Procedimento de impressão para filamento de $1,75mm$.}
+  \label{fig:impressao-175mm}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{peca-175mm}
+  \caption{Peça final impressa.}
+  \label{fig:peca-175mm}
+\end{figure}
+
+Este procedimento de conversão foi bem sucedido sendo passível de inclusão no modelo da \emph{Metamáquina 2}.\\
+
+A seguir serão apresentados os testes realizados em diversos filamentos, a fim de avaliar fornecedores e, também, para obter perfis de impressão compatíveis, já que cada filamento possui uma determinada condição para qualificar uma impressão desejável.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-azul-claro}
+  \caption{Teste com filamento \ac{PLA} da marca \emph{Esun} cor azul claro.}
+  \label{fig:teste-azul-claro}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-azul-translucido}
+  \caption{Teste com filamento \ac{PLA} translúcido da marca \emph{Esun} cor azul.}
+  \label{fig:teste-azul-translucido}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-cinza}
+  \caption{Teste com filamento \ac{PLA} da marca \emph{Esun} cor cinza.}
+  \label{fig:teste-cinza}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-preto}
+  \caption{Teste com filamento \ac{PLA} da marca \emph{Esun} cor preta.}
+  \label{fig:teste-preto}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-verde-translucido}
+  \caption{Teste com filamento \ac{PLA} translúcido da marca \emph{Esun} cor verde.}
+  \label{fig:teste-verde-translucido}
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-hips}
+  \caption{Teste com filamento \ac{HIPS} da marca \emph{Esun} cor natural.}
+  \label{fig:teste-hips}
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{teste-Macomp}
+  \caption{Teste com filamentos \ac{PLA} da marca \emph{Macomp}.}
+  \label{fig:teste-Macomp}
+\end{figure}
+
+Os testes realizados com filamento \ac{PVA} são complexos, pois devem ser realizados com retração mínima, velocidade baixa e uma guia que impede o enrolamento do filamento dentro do extrusor na região inferior do parafuso trator. Estas guias são apresentadas na figura \ref{fig:impressao-PVA} e o seu teste é apresentado na figura \ref{fig:teste-PVA}.\\
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{impressao-PVA}
+  \caption{Impressão com filamento \ac{PVA} da marca \emph{Esun}.}
+  \label{fig:impressao-PVA}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.3\textwidth]{teste-PVA}
+  \caption{Teste com filamento \ac{PVA} da marca \emph{Esun}.}
+  \label{fig:teste-PVA}
+\end{figure}
+
+O diâmetro dos filamentos pode interferir na impressão, principalmente se ocorrerem imperfeições tais como a variação de diâmetro ao longo do rolo e a ovalização. Os valores mensurados com paquímetro dos diâmetros dos filamentos são apresentados na tabela \ref{tab:diam-fil}. Alguns valores apresentados nesta tabela não estavam disponíveis (\ac{ND}) e também foi mensurado um filamento de material resistente (\ac{HIPS}).\\
+
+Os filamentos são enumerados conforme o seu \ac{Id}.
+
+\begin{table}
+\centering
+\begin{tabular}{llllllll}
+\toprule[2pt]
+Material & Empresa/Referência & $D_{nom}$ & $T_{fab}$ & Cor & $\overline{x}$ & $s$ & \ac{Id} \\
+\midrule[2pt]
+\multirow{5}{*}{\ac{ABS}} & \multirow{3}{*}{{\emph{Esun}-China}}    & \multirow{3}{*}{1,75} &  \multirow{3}{*}{220-260} & Cinza (\emph{Gray})          & 1,77 & 0,02 & 01\\
+                          &     &   &   & Preto (\emph{Black})         & 1,75 & 0,02 & 02\\
+                          &     &   &   & Azul Claro (\emph{Light Blue})    & 1,74 & 0,01 & 03\\
+\cmidrule{2-8}                          
+                          &  \emph{Esun}-China    & 1,75  & 190-220 & Azul (\emph{Blue})          & 1,73 & 0,02 & 04\\
+\cmidrule{2-8}
+                          &   \emph{Esun}-China   & 3,00  & 220-260  & Natural       & 2,98 & 0,06 & 05\\
+\midrule
+\ac{HIPS} & \emph{Esun}-China & 3,00 & 220-260 & Natural &  2,95 & 0,03 & 06\\
+\midrule
+\multirow{9}{*}{\ac{PLA}} & \multirow{2}{*}{\emph{Esun}-China}    & \multirow{2}{*}{3,00} & \multirow{2}{*}{190-220} & Branco (\emph{White})         & 2,93 & 0,05 & 07\\
+                          &                                & 	 		   &			      & Amarelo (\emph{Yellow})	      & 2,97 & 0,03 & 08\\
+\cmidrule{2-8}
+			  & \multirow{3}{*}{\ac{ND}-China} & \multirow{3}{*}{1,75} & \multirow{3}{*}{\ac{ND}}    & Prata (\emph{Silver})	      & 1,77 & 0,02 & 09\\
+     			  &			           &                       &                          & Branco Natural (\emph{Natural White}) & 1,78 & 0,02 & 10\\
+			  &				   &			   &			      & Laranja (\emph{Orange}) 	      & 1,86 & 0,19 & 11\\
+\cmidrule{2-8}
+ &	\emph{Macomp} & 1,75 & \ac{ND}  & Laranja & 1,70 & 0,03 & 12\\
+\cmidrule{2-8}
+ &	\multirow{4}{*}{\emph{Macomp}} & \multirow{4}{*}{3,00} & \multirow{4}{*}{\ac{ND}} & Verde & 2,87 & 0,05 & 13\\
+ &							& 			&				& Azul & 2,97 & 0,06 & 14\\
+							&								& 	&	& Vermelho	& 2,50 & 0,47 & 15\\
+							&								& &						&	Transparente	 & 2,33 & 0,51 & 16\\
+\midrule
+\multirow{2}{*}{\ac{PVA}}	&	\multirow{2}{*}{\emph{Esun}-China} & 1,75 & \multirow{2}{*}{190-220}	& \multirow{2}{*}{Natural}	& 1,73 & 0,02 & 17\\
+							&								& 3,00 & 							& 							& 2,88 & 0,02 & 18\\
+\bottomrule[2pt]
+\end{tabular}
+\caption{Verificação do Diâmetro dos Filamentos.}
+\label{tab:diam-fil}
+\end{table}
+
+Como foram testados diversos filamentos, reuniram-se os parâmetros de fatiamento, inseridos no \emph{slic3r}, em uma tabela, vista na \ref{tab:perfis-fat}.
+
+\begin{table}
+\centering
+\begin{tabular}{lllllll}
+\toprule[2pt]
+\ac{Id} & $T_{te}$ & $T_{tb}$ &$Ret$ & $Mult$ & Guia & $v_{max}$ \\
+\midrule[2pt]
+$01$ & $230$ & $110$ &  $1,0$ & $0,98$ & não & $60$\\
+$02$ & $230$ & $110$ &  $1,0$ & $0,98$ & não & $60$\\
+$03$ & $220$ & $110$ &  $0,5$ & $1,05$ & não & $60$\\
+$04$ & $220$ & $110$ &  $0,5$ & $1,05$ & não & $60$\\
+$05$ & $230$ & $110$ &  $2,0$ & $0,98$ & não & $60$\\
+$06$ & $220$ & $110$ &  $2,0$ & $0,98$ & não & $60$\\
+$07$ & $230$ & $110$ &  $2,0$ & $0,98$ & não & $60$\\
+$08$ & $230$ & $110$ &  $1,0$ & $0,80$ & não & $60$\\
+$09$ & $230$ & $110$ &  $2,0$ & $0,98$ & não & $60$\\
+$10$ & $230$ & $110$ &  $2,0$ & $0,98$ & não & $60$\\
+$11$ & $210$ & $100$ &  $2,0$ & $0,98$ & não & $60$\\
+$12$ & $200$ & $100$ &  $1,0$ & $1,00$ & não & $60$\\
+$13$ & $200$ & $100$ &  $1,0$ & $1,00$ & não & $60$\\
+$14$ & $200$ & $100$ &  $1,0$ & $1,00$ & não & $60$\\
+$15$ & $200$ & $100$ &  $1,0$ & $1,00$ & não & $60$\\
+$16$ & $200$ & $100$ &  $1,0$ & $1,00$ & não & $60$\\
+$17$ & $195$ & $100$ &  $0,2$ & $0,90$ & sim & $40$\\
+$18$ & $195$ & $100$ &  $0,2$ & $0,90$ & sim & $40$\\
+\bottomrule[2pt]
+\end{tabular}
+\caption{Perfis de fatiamento.}
+\label{tab:perfis-fat}
+\end{table}
+
+Através dessa tabela nota-se que os filamentos opacos operam com perfis similares aos já programados no \emph{Pronterface} com a alteração da temperatura de extrusão, pois os filamentos da marca \emph{Esun} possuem temperaturas mais altas.\\
+
+Os filamentos translúcidos operam com retrações menores e com o parâmetro de multiplicador de vazão de extrusão inferior aos dos polímeros opacos.\\
+
+O material \ac{PVA} possui maior dificuldade para se obter uma impressão de qualidade, por ser muito flexível é necessário utilizar guias, velocidade de extrusão baixa, retração pequena em relação aos perfis de impressão de outros materiais citados anteriormente no \emph{Pronterface}.\\
+
+Enfim, graças a este experimento verificou-se a possibilidade de utilizar o diâmetro de $1,75mm$ na impressora \ac{3D} aprimorando a flexibilidade de operação deste equipamento.\\
+
+Além disso, conforme apresentado, foram elaborados perfis de impressão para cada filamento com coloração, translucidez e características distintas, sendo possível observar que certos filamentos de difícil impressão tornaram-se viáveis graças a ajustes de parâmetros do \emph{slic3r}.

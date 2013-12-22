@@ -1,0 +1,66 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Barras lisas a serem posicionadas com precis\~ao.\relax }}{7}{figure.caption.23}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces R\'egua de calibra\c c\~ao frontal.\relax }}{8}{figure.caption.24}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces R\'egua de calibra\c c\~ao dorsal.\relax }}{8}{figure.caption.25}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Faces para o corte a laser das r\'eguas de calibra\c c\~ao.\relax }}{8}{figure.caption.26}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Modelo para o equipamento de teste de barras.\relax }}{9}{figure.caption.27}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Modelo elaborado para o porta rolo de filamento.\relax }}{10}{figure.caption.29}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Faces para o corte a laser do porta rolo de filamento.\relax }}{10}{figure.caption.30}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Prot\'otipo elaborado para o porta rolo de filamento.\relax }}{11}{figure.caption.31}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \emph {Kit} de um dos extrusores preso na carca\c ca da impressora \ac {3D}.\relax }}{12}{figure.caption.33}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \emph {Kit} de um dos extrusores preso na carca\c ca da impressora \ac {3D}.\relax }}{12}{figure.caption.34}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Primeira vers\~ao do prendedor dos bicos extrusores.\relax }}{12}{figure.caption.35}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Vers\~ao final do prendedor dos bicos extrusores - vista superior.\relax }}{13}{figure.caption.36}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Vers\~ao final do modelo do prendedor dos bicos extrusores - vis\~ao \ac {3D}.\relax }}{13}{figure.caption.37}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Prot\'otipo do prendedor dos bicos extrusores.\relax }}{14}{figure.caption.38}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Prot\'otipo da impressora \ac {3D}.\relax }}{14}{figure.caption.39}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Interface do \emph {software Ardu\IeC {\'\i }no}.\relax }}{15}{figure.caption.41}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Interface do \emph {Convers\~ao de arquivos \ac {STL} para \emph {.gcode} pelo \emph {Pronterface}}.\relax }}{16}{figure.caption.43}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Tela geral do \emph {Slic3r}.\relax }}{17}{figure.caption.45}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Tela do \emph {Slic3r} de propriedades de impress\~ao.\relax }}{17}{figure.caption.46}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Tela do \emph {Slic3r} sobre propriedades do filamento.\relax }}{18}{figure.caption.47}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Tela do \emph {Slic3r} sobre propriedades da impressora.\relax }}{18}{figure.caption.48}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Tela do \emph {Pronterface}.\relax }}{19}{figure.caption.50}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Primeira pe\c ca impressa.\relax }}{19}{figure.caption.51}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Impress\~ao em \ac {ABS} em duas cores.\relax }}{20}{figure.caption.52}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Impress\~ao em \ac {ABS} e \ac {PLA}.\relax }}{20}{figure.caption.53}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Termistores de vidro da \emph {addtherm}.\relax }}{24}{figure.caption.54}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Desenho esquem\'atico de um dos termistores da placa \emph {Rambo}.\relax }}{25}{figure.caption.56}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Teste de termistores.\relax }}{26}{figure.caption.57}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces M\'edia dos resultados dos ensaios para os tr\^es lotes de termistores.\relax }}{26}{figure.caption.58}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Impressora Utilizada para o Teste de Vibra\c c\~ao.\relax }}{27}{figure.caption.59}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Disposi\c c\~ao dos principais elementos testados.\relax }}{28}{figure.caption.60}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Parafuso com porca com grande quantidade de cola trava-rosca \emph {Loctite 243}.\relax }}{28}{figure.caption.61}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Parafuso com porca com pouca quantidade de cola trava-rosca \emph {Loctite 243}.\relax }}{29}{figure.caption.62}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Parafusos com porca com cola trava-rosca \emph {Tek Bond 128} - identificados em vermelho.\relax }}{29}{figure.caption.63}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Parafuso com porca comum.\relax }}{30}{figure.caption.64}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Parafuso com porca comum.\relax }}{30}{figure.caption.65}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \emph {T-slot} justo para a porca auto travante da empresa \emph {seemeCNC} \cite {seemeCNC}.\relax }}{30}{figure.caption.66}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Equipamento utilizado para o teste de extrus\~ao adaptado para uso de tubo \emph {Bowden}.\relax }}{31}{figure.caption.67}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Detalhe do ensaio de extrus\~ao com tubo \emph {Bowden}.\relax }}{32}{figure.caption.68}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Procedimento de impress\~ao para filamento de $3,00mm$.\relax }}{33}{figure.caption.69}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Pe\c ca final impressa.\relax }}{33}{figure.caption.70}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Tubo conversor para utilizar filamentos de $1,75mm$.\relax }}{34}{figure.caption.71}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Limpeza do bico extrusor.\relax }}{34}{figure.caption.72}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Inser\c c\~ao do tubo conversor.\relax }}{35}{figure.caption.73}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Visualiza\c c\~ao final da coloca\c c\~ao do tubo conversor.\relax }}{35}{figure.caption.74}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Procedimento de impress\~ao para filamento de $1,75mm$.\relax }}{36}{figure.caption.75}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Pe\c ca final impressa.\relax }}{36}{figure.caption.76}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Teste com filamento \ac {PLA} da marca \emph {Esun} cor azul claro.\relax }}{37}{figure.caption.77}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Teste com filamento \ac {PLA} transl\'ucido da marca \emph {Esun} cor azul.\relax }}{37}{figure.caption.78}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Teste com filamento \ac {PLA} da marca \emph {Esun} cor cinza.\relax }}{37}{figure.caption.79}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Teste com filamento \ac {PLA} da marca \emph {Esun} cor preta.\relax }}{39}{figure.caption.80}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Teste com filamento \ac {PLA} transl\'ucido da marca \emph {Esun} cor verde.\relax }}{39}{figure.caption.81}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Teste com filamento \ac {HIPS} da marca \emph {Esun} cor natural.\relax }}{39}{figure.caption.82}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Teste com filamentos \ac {PLA} da marca \emph {Macomp}.\relax }}{40}{figure.caption.83}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Impress\~ao com filamento \ac {PVA} da marca \emph {Esun}.\relax }}{40}{figure.caption.84}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Teste com filamento \ac {PVA} da marca \emph {Esun}.\relax }}{41}{figure.caption.85}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

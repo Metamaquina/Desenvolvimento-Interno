@@ -1,0 +1,405 @@
+% Arquivo LaTeX do relatório ténico a ser apresentado à FAPESP
+% 
+% Versão 1: Seg Nov 18 18:05:40 BRT 2012
+%
+% Criação: Sara Rodriguez
+% Revisão: Felipe Sanches, Rodrigo Silva, Filipe Moura
+%  
+
+\documentclass[11pt,twoside,a4paper]{book}
+
+% ---------------------------------------------------------------------------- %
+% Pacotes 
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[pdftex]{graphicx}           % usamos arquivos pdf/png como figuras
+\usepackage{setspace}                   % espaçamento flexível
+\usepackage{indentfirst}                % indentação do primeiro parágrafo
+\usepackage{makeidx}                    % índice remissivo
+\usepackage[nottoc]{tocbibind}          % acrescentamos a bibliografia/indice/conteudo no Table of Contents
+\usepackage{courier}                    % usa o Adobe Courier no lugar de Computer Modern Typewriter
+\usepackage{type1cm}                    % fontes realmente escaláveis
+\usepackage{listings}                   % para formatar código-fonte (ex. em Java)
+\usepackage[table]{xcolor}
+
+\lstset{
+xleftmargin = 10cm,
+xrightmargin =  10cm,
+framesep = 0.7cm,
+numbers = left,
+}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+\usepackage{titletoc}
+\usepackage[bf,small,compact]{titlesec} % cabeçalhos dos títulos: menores e compactos
+%\usepackage[fixlanguage]{babelbib}
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+%\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry} % margens
+%\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,bookmarksopen=true]{hyperref} % links em preto
+%\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
+\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,bookmarksopen=true]{hyperref} % links coloridos original
+\usepackage[all]{hypcap}                % soluciona o problema com o hyperref e capitulos
+\usepackage{url}
+\usepackage[square,sort,nonamebreak,comma]{natbib}  % citação bibliográfica alpha (alpha-ime.bst)
+\usepackage{lastpage}
+\usepackage{todonotes}
+\usepackage{acronym}
+\usetikzlibrary{plotmarks}
+%\usepackage{biblatex}
+%\usepackage[acronym]{glossaries}
+
+%tabelas:
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{morefloats}
+
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+
+% ---------------------------------------------------------------------------- %
+% Cabeçalhos similares ao TAOCP de Donald E. Knuth
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{#1}}{}}
+\renewcommand{\headrulewidth}{0pt}
+
+% ---------------------------------------------------------------------------- %
+\graphicspath{{./figuras/}}             % caminho das figuras (recomendável)
+\frenchspacing                          % arruma o espaço: id est (i.e.) e exempli gratia (e.g.) 
+\urlstyle{same}                         % URL com o mesmo estilo do texto e não mono-spaced
+\makeindex                              % para o índice remissivo
+\raggedbottom                           % para não permitir espaços extra no texto
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+\cleardoublepage
+\normalsize
+
+% ---------------------------------------------------------------------------- %
+% Opções de listing usados para o código fonte
+% Ref: http://en.wikibooks.org/wiki/LaTeX/Packages/Listings
+\lstset{ %
+language=Java,                  % choose the language of the code
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it's 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,	                % adds a frame around the code
+framerule=0.6pt,
+tabsize=2,	                    % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)},         % if you want to add a comment within your code
+backgroundcolor=\color[rgb]{1.0,1.0,1.0}, % choose the background color.
+rulecolor=\color[rgb]{0.8,0.8,0.8},
+extendedchars=true,
+xleftmargin=10pt,
+xrightmargin=10pt,
+framexleftmargin=10pt,
+framexrightmargin=10pt
+}
+
+% ---------------------------------------------------------------------------- %
+% Corpo do texto
+\begin{document}
+\frontmatter 
+% cabeçalho para as páginas das seções anteriores ao capítulo 1 (frontmatter)
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+\setcounter{tocdepth}{2}
+\fancyhead[LE]{\thepage\hspace{2em}\footnotesize{\leftmark}}
+\fancyhead[RE,LO]{}
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+
+\newcommand{\DocTitle}{Desenvolvimento de Tecnologias e de Funcionalidades Avançadas de Impressão 3D}
+\newcommand{\DocTitleEn}{Development of Technology and Advanced Features for 3D Printing}
+
+\onehalfspacing  % espaçamento
+
+% ---------------------------------------------------------------------------- %
+% CAPA
+% Nota: O título para o relatório técnico deve caber em um 
+% orifício de 10,7cm de largura x 6,0cm de altura que há na capa fornecida pela SPG.
+\thispagestyle{empty}
+\begin{center}
+    
+    \vspace*{2.3cm}
+    \textbf{\Large{\DocTitle}}\\
+    
+    \vspace*{1.2cm}
+    \Large{Sara Rodriguez}
+    
+    \vskip 2cm
+    \textsc{
+    Relatório Técnico Científico Apresentado à\\[-0.25cm]
+    Fundação de Amparo à Pesquisa do Estado de São Paulo - (FAPESP)
+    }
+    
+    \vskip 10cm
+    \normalsize
+    \begin{flushleft}
+		\textbf{Processo FAPESP n\textsuperscript{o}:} 2013/12374-2\\
+    	\textbf{Período:} 01/08/2013 a 31/12/2013\\ %TODO
+    	\textbf{Responsável:} Felipe Alves Moura
+	 \end{flushleft}
+
+   	\vskip 2cm
+    \normalsize{Durante o desenvolvimento deste trabalho a autora recebeu auxílio
+    financeiro da FAPESP}
+    
+    \vskip 0.5cm
+\end{center}
+
+% ---------------------------------------------------------------------------- %
+% Página de rosto (SÓ PARA A VERSÃO DEPOSITADA)
+% Resolução CoPGr 5890 (20/12/2010)
+%
+% IMPORTANTE:
+%   Coloque um '%' em todas as linhas
+%   desta página antes de compilar a versão
+%   final, corrigida, do trabalho
+%
+%
+%
+\newpage
+\thispagestyle{empty}
+    \begin{center}
+        \vspace*{2.3 cm}
+        \textbf{\Large{\DocTitle}}\\
+        \vspace*{2 cm}
+    \end{center}
+
+    \vskip 2cm
+
+    \begin{flushright}
+	Esta é a versão original do relatório técnico\\
+	elaborado pela bolsista Sara Rodriguez,\\
+	tal como submetido à FAPESP.
+    \end{flushright}
+
+\pagebreak
+
+
+% ---------------------------------------------------------------------------- %
+% Página de rosto (SÓ PARA A VERSÃO CORRIGIDA)
+% Resolução CoPGr 5890 (20/12/2010)
+%
+% Nota: O título para o relatório técnico deve caber em um 
+% orifício de 10,7cm de largura x 6,0cm de altura que há na capa fornecida pela SPG.
+%
+% IMPORTANTE:
+%   Coloque um '%' em todas as linhas desta
+%   página antes de compilar a versão do trabalho que será entregue
+%   à Comissão Julgadora antes da defesa
+%
+%
+%\newpage
+%\thispagestyle{empty}
+%    \begin{center}
+%        \vspace*{2.3 cm}
+%        \textbf{\Large{\ref{title}}}\\
+%        \vspace*{2 cm}
+%    \end{center}
+%
+%    \vskip 2cm
+%
+%    \begin{flushright}
+%	Esta versão do relatório técnico contém as correções e alterações sugeridas\\
+%	pela FAPESP durante a apresentação da versão original do relatório,\\
+%	realizada em 14/12/2010. Uma cópia da versão original está disponível no\\
+%	sítio do SAGE da própria FAPESP.
+%
+%    \vskip 2cm
+%
+%    \end{flushright}
+%    \vskip 4.2cm
+%
+%    \begin{quote}
+%    \noindent Comissão Julgadora:
+%    
+%    \begin{itemize}
+%		\item Profª. Drª. Nome Completo (orientadora) - IME-USP [sem ponto final]
+%		\item Prof. Dr. Nome Completo - IME-USP [sem ponto final]
+%		\item Prof. Dr. Nome Completo - IMPA [sem ponto final]
+%    \end{itemize}
+%      
+%    \end{quote}
+%\pagebreak
+
+\pagenumbering{roman}     % começamos a numerar 
+
+% ---------------------------------------------------------------------------- %
+% Agradecimentos:
+% Se o candidato não quer fazer agradecimentos, deve simplesmente eliminar esta página 
+\chapter*{Agradecimentos}
+Agradeço primeiramente à FAPESP, pela concessão da minha bolsa de treinamento técnico, tipo TT4A, e ter colaborado para que eu atuasse na Metamáquina. Graças a isso adquiri muito conhecimento nesta área tão inovadora, conheci pessoas tão admiráveis e inteligentes e ainda obtive auxílio financeiro em uma etapa importante da minha vida. Gostaria muito de continuar contribuindo nesta área.\\
+
+Agradeço a todos os meus colegas da Metamáquina:\\
+
+Agradeço ao Filipe Moura, por ter confiado na minha capacidade perante o desafio de construir uma impressora com extrusão dupla, ter trocado o tipo da minha bolsa e ter insistido para que eu entrasse neste projeto.\\
+
+Agradeço ao Felipe Sanches, por me ensinar a trabalhar com os \textit{softwares}: \emph{OpensCAD}, de desenho tridimensional; \emph{Arduino IDE}, de eletrônica e o \emph{Pronterface}, de interface para a impressão 3D.\\
+
+Agradeço ao Rodrigo Rodrigues da Silva, pelos seus ensinamentos e por ter-me fornecido dicas tão preciosas em diversos momentos oportunos.\\
+
+Quero agradecer à minha mãe, que primou pelos meus estudos e pela minha carreira e sempre esteve presente em minha vida.\\
+
+Agradeço, por fim, a Deus, que fez com que eu vivenciasse trabalhar por um semestre, de um ano muito complicado para mim e para a área em que eu atuava, em uma empresa tão incrível e inovadora. Espero utilizar o conhecimento adquirido na \emph{Metamáquina} futuramente.
+
+
+% ---------------------------------------------------------------------------- %
+% Resumo
+\chapter*{Resumo}
+
+\noindent RODRIGUEZ, S. \textbf{\DocTitle}. 
+2013. 44 f. %TODO
+Relatório Técnico - FAPESP,
+Metamáquina, São Paulo, 2013.
+\\ %TODO verificar se o relatório realmente está compatível com este resumo
+
+A impressão tridimensional abordada neste relatório consiste em uma tecnologia de fabricação onde um modelo é elaborado através do depósito de sucessivas camadas de material plástico. Este processo tem sido cada vez mais ágil, flexível, acessível e mais interativo com o usuário.\\
+
+A prototipagem rápida abrange um número crescente de áreas do conhecimento e é capaz de elaborar peças de diversos materiais de complexidade variada.\\
+
+Neste relatório técnico são apresentados projetos, a fim de aprimorar o modelo atual da \emph{Metamáquina 2}, tais como a elaboração de réguas de calibração e de um teste para a verificação de barras roscadas deste equipamento.\\
+
+Também são apresentados os resultados de diversas bancadas de testes, tais como a de averiguação de temperatura e a de vibração. Inclusive, com foco na qualidade da impressão, foram realizados testes de extrusão e retração e de impressão com filamentos.\\
+
+Também é apresentado um modelo de suporte de filamento elaborado com \textit{software} \emph{OpensCAD} e com processo de corte à laser.\\
+
+A versatilidade da utilização de tecnologia de dupla extrusão é relevante, com ela é possível utilizar materiais dissolvíveis para imprimir peças que necessitam sustentação. É possível, também, elaborar peças de duas cores ou dois materiais distintos.\\
+
+Por fim, a partir deste cenário, este relatório técnico apresenta o projeto de elaboração de um protótipo de impressora tridimensional com extrusão dupla, sendo apresentados os dados técnicos de \emph{hardware} e \emph{software} e impressões elaboradas.\\
+
+Desta forma, este relatório apresenta aprimoramentos implementados e futuros na área de impressão tridimensional.
+\\
+\noindent \textbf{Palavras-chave:} Prototipagem rápida, Desenvolvimento de Produtos, Impressão Tridimensional, Produção em Lotes Pequenos, Projeto de Máquinas.
+
+% ---------------------------------------------------------------------------- %
+% Abstract
+\chapter*{Abstract}
+\noindent RODRIGUEZ, S. \textbf{\DocTitleEn}. 
+2013. 44 f. %TODO
+Technical Report - FAPESP,
+Metamáquina, São Paulo, 2013.
+\\
+
+The three-dimensional printing presented in this report consists in a manufacturing technology which a model is maiden by depositing successive layers of plastic material. This process has been incresingly agile, flexible, accessible and more interactive with the user.\\
+
+Rapid prototyping encompasses a growing number of areas of knowledgement and it became possible to elaborate pieces of different materials and complexity.\\
+
+This technical report presents projects in order to enhance the current printer model called \emph{Metamáquina 2}, such as the elaboration of projets of calibration rules and a test to check threaded bars of this equipment.\\
+
+Also are presented the results of some test stands, such as the temperature measurement and the vibration one. Even focusing on the quality of printing, extrusion and retraction and print tests with filaments were performed.\\
+
+Also is presented a filament spool holder project maiden by the \textit{software} \emph{OpensCAD} by laser cutting process.\\
+
+The versatility of using the double extrusion technology is relevant, it is possible to use a dissolvable material for printing parts that need support. You can also build pieces of two colors or two different materials.\\
+
+Finally, this report presents the development of a project of a three-dimensional printer with dual extrusion, the technical data of \emph {hardware} and \emph{software} and the objects printed.\\
+
+Thus, this report presents implemented and future improvements in the area of ??three-dimensional printing.\\
+\\
+\noindent \textbf{Keywords:} Rapid Prototyping, Product Development, 3D Printing, Small Batch Production, Machine Design .
+
+% ---------------------------------------------------------------------------- %
+% Sumário
+\tableofcontents    % imprime o sumário
+
+% ---------------------------------------------------------------------------- %
+\chapter{Lista de Abreviaturas}
+
+\begin{acronym}
+	\acro{3D}{três dimensões}
+	\acro{ABS}{acrilonitrilo-butadieno-estireno (\emph{Acrylonitrile Butadiene Styrene})}
+	\acro{CNC}{Controle Numérico Computadorizado (\emph{Computer Numeric Control})}
+	\acro{DMLS}{Sinterização Seletiva de Metal por Laser (\emph{Direct Metal Laser Sintering})}
+	\acro{FDM}{Fused Deposition Modeling}
+	\acro{HIPS}{Poliestireno de Alto Impacto (\emph{High Impact Polystyrene})}
+	\acro{Id}{Número Identificador}
+	\acro{MDF}{Madeira de Média Densidade (\emph{Medium-density fibreboard})}
+	\acro{MJM}{Multi-jato de Modelagem (\emph{multi-jet modelling})}
+	\acro{ND}{Não Disponível}
+	\acro{NTC}{Coeficiente Negativo de Temperatura (\emph{Negative Temperature Coefficient})}
+	\acro{PLA}{ácido poliláctico (\emph{Polylactic acid or polylactide})}
+	\acro{PTFE}{Politetrafluoretileno}
+	\acro{PVA}{Álcool Polivinílico (\emph{Polyvinyl alcohol})}
+	\acro{SHS}{Sinterização Seletiva por Calor (\emph{Selective Heat Sintering})}
+	\acro{SLA}{Aparelho de Estereolitografia (\emph{Stereo Litography Apparatus})}
+	\acro{SLM}{Fusão Seletiva a Laser (\emph{Selective Laser Melting})}
+	\acro{SLS}{Sinterização a Laser (\emph{Selective Laser Sintering})}
+	\acro{STL}{\emph{STereoLithography} ou \emph{Standard Tessellation Language}}
+	\acro{UV}{Ultravioleta}
+\end{acronym}
+
+% ---------------------------------------------------------------------------- %
+\chapter{Lista de Símbolos}
+\begin{tabular}{lll}
+        $\beta$    		& Fator Beta do Termistor 			&   [adm]\\
+        $a$      		& Fator de \emph{Steinhart-Hart}	&	[adm]\\
+        $b$      		& Fator de \emph{Steinhart-Hart}	&	[adm]\\
+        $c$      		& Fator de \emph{Steinhart-Hart}	&	[adm]\\
+        $D_{nom}$	   		& Diâmetro Nominal					&	[$mm$]\\
+        $Mult$			& Quantidade de filamento extrudado em relação ao padrão & [$\%$]\\
+        $R$      		& Resistência                		&	[$\Omega$]\\
+        $R_0$     		& Resistência a $25ºC$          	&	[$\Omega$]\\
+        $RawADC$  		& Valor de corrente lido pela placa &   [$A$]\\
+        $Ret$			& Comprimento de retração durante a impressão & [$mm$]\\      
+        $s$		   		& Desvio Padrão						&	[adm]\\
+        $T$		   		& Temperatura			 			&	[$K$]\\
+        $T_{fab}$ 		& Temperatura de Impressão Fornecida pelo Fabricante			&	[$ºC$]\\
+        $T_{tb}$ 		& Temperatura do Extrusor para Teste de Impressão 			&	[$ºC$]\\  
+        $T_{te}$ 		& Temperatura do Extrusor para Teste de Impressão 			&	[$ºC$]\\       
+        $v_{max}$		& Velocidade máxima de extrusão		&	[$mm/s$]\\ 
+        $\overline{x}$	& Média de Diâmetros Mensurados		& 	[$mm$]
+\end{tabular}
+
+% ---------------------------------------------------------------------------- %
+% Listas de figuras e tabelas criadas automaticamente
+\listoffigures            
+\listoftables            
+
+% ---------------------------------------------------------------------------- %
+% Capítulos do trabalho
+\mainmatter
+
+% cabeçalho para as páginas de todos os capítulos
+\fancyhead[RE,LO]{\thesection}
+
+\singlespacing              % espaçamento simples
+%\onehalfspacing            % espaçamento um e meio
+
+\input cap-introducao        % associado ao arquivo: 'cap-introducao.tex'
+\input cap-desenvolvimento         % associado ao arquivo: 'cap-conceitos.tex'
+\input cap-conclusoes        % associado ao arquivo: 'cap-conclusoes.tex'
+
+% cabeçalho para os apêndices
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\ \thechapter}} {\MakeUppercase{#1}} }
+\fancyhead[RE,LO]{}
+\appendix
+
+\include{ape-desenhos}      % associado ao arquivo: 'ape-desenhos.tex'
+\include{ape-software}      % associado ao arquivo: 'ape-software.tex'
+
+% ---------------------------------------------------------------------------- %
+% Bibliografia
+\backmatter \singlespacing   % espaçamento simples
+\bibliographystyle{alpha-ime}% citação bibliográfica alpha
+\bibliography{bibliografia}  % associado ao arquivo: 'bibliografia.bib'
+
+% ---------------------------------------------------------------------------- %
+% Índice remissivo
+%\index{TBP|see{periodicidade região codificante}}
+%\index{DSP|see{processamento digital de sinais}}
+%\index{STFT|see{transformada de Fourier de tempo reduzido}}
+%\index{DFT|see{transformada discreta de Fourier}}
+%\index{Fourier!transformada|see{transformada de Fourier}}
+%
+%\printindex   % imprime o índice remissivo no documento 
+
+\end{document}

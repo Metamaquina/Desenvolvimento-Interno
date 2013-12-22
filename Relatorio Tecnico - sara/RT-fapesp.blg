@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: RT-fapesp.aux
+A level-1 auxiliary file: ape-desenhos.aux
+A level-1 auxiliary file: ape-software.aux
+The style file: alpha-ime.bst
+Database file #1: bibliografia.bib
+You've used 34 entries,
+            2543 wiz_defined-function locations,
+            730 strings with 9203 characters,
+and the built_in function-call counts, 9087 in all, are:
+= -- 878
+> -- 272
+< -- 35
++ -- 72
+- -- 68
+* -- 397
+:= -- 1477
+add.period$ -- 102
+call.type$ -- 34
+change.case$ -- 168
+chr.to.int$ -- 32
+cite$ -- 34
+duplicate$ -- 405
+empty$ -- 816
+format.name$ -- 132
+if$ -- 1902
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 173
+num.names$ -- 102
+pop$ -- 273
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 376
+stack$ -- 0
+substring$ -- 240
+swap$ -- 35
+text.length$ -- 35
+text.prefix$ -- 30
+top$ -- 0
+type$ -- 264
+warning$ -- 0
+while$ -- 68
+width$ -- 37
+write$ -- 411

@@ -1,0 +1,3839 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.17)  22 DEC 2013 01:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**RT-fapesp.tex
+(./RT-fapesp.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 3 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks17
+\lst@length=\count91
+\lst@currlwidth=\dimen106
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen109
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/06/27 1.5pre1 listings configuration
+))
+Package: listings 2013/07/10 1.5 (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen110
+\extrarowheight=\dimen111
+\NC@list=\toks18
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\everycr=\toks19
+\minrowclearance=\skip45
+)
+\rownum=\count98
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2013/03/17 v1.8 Data Visualization (1.8-3-gaf58a29)
+
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen112
+\pgf@y=\dimen113
+\pgf@xa=\dimen114
+\pgf@ya=\dimen115
+\pgf@xb=\dimen116
+\pgf@yb=\dimen117
+\pgf@xc=\dimen118
+\pgf@yc=\dimen119
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count99
+\c@pgf@countb=\count100
+\c@pgf@countc=\count101
+\c@pgf@countd=\count102
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count103
+\pgfsyssoftpath@bigbuffer@items=\count104
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen120
+\pgfmath@count=\count105
+\pgfmath@box=\box29
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count106
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen121
+\pgf@picmaxx=\dimen122
+\pgf@picminy=\dimen123
+\pgf@picmaxy=\dimen124
+\pgf@pathminx=\dimen125
+\pgf@pathmaxx=\dimen126
+\pgf@pathminy=\dimen127
+\pgf@pathmaxy=\dimen128
+\pgf@xx=\dimen129
+\pgf@xy=\dimen130
+\pgf@yx=\dimen131
+\pgf@yy=\dimen132
+\pgf@zx=\dimen133
+\pgf@zy=\dimen134
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen135
+\pgf@path@lasty=\dimen136
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen137
+\pgf@shorten@start@additional=\dimen138
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count107
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen139
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen140
+\pgf@pt@y=\dimen141
+\pgf@pt@temp=\dimen142
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen143
+\pgf@sys@shading@range@num=\count108
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen144
+\pgf@nodesepend=\dimen145
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen146
+\pgffor@skip=\dimen147
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count109
+\pgfplotmarksize=\dimen148
+)
+\tikz@lastx=\dimen149
+\tikz@lasty=\dimen150
+\tikz@lastxsaved=\dimen151
+\tikz@lastysaved=\dimen152
+\tikzleveldistance=\dimen153
+\tikzsiblingdistance=\dimen154
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count110
+\tikznumberofchildren=\count111
+\tikznumberofcurrentchild=\count112
+\tikz@fig@count=\count113
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count114
+\pgfmatrixcurrentcolumn=\count115
+\pgf@matrix@numberofcolumns=\count116
+)
+\tikz@expandcount=\count117
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks29
+\t@pgfplots@tokb=\toks30
+\t@pgfplots@tokc=\toks31
+\pgfplots@tmpa=\dimen155
+\c@pgfplots@coordindex=\count118
+\c@pgfplots@scanlineindex=\count119
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+Package pgfplots: loading complementary code for your PGF version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_misc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count120
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
+\pgf@plot@mark@count=\count121
+\pgfplotmarksize=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
+\pgfpic=\box37
+\pgf@hbox=\box38
+\pgf@layerbox@main=\box39
+\pgf@picture@serial@count=\count122
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2012/11/07  (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count123
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count124
+\t@pgfplotstable@a=\toks35
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count125
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.code.tex
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen157
+\pgfdecoratedremainingdistance=\dimen158
+\pgfdecoratedinputsegmentcompleteddistance=\dimen159
+\pgfdecoratedinputsegmentremainingdistance=\dimen160
+\pgf@decorate@distancetomove=\dimen161
+\pgf@decorate@repeatstate=\count126
+\pgfdecorationsegmentamplitude=\dimen162
+\pgfdecorationsegmentlength=\dimen163
+)
+\tikz@lib@dec@box=\box40
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathmorphing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athmorphing.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathreplacing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athreplacing.code.tex))
+\pgfplots@numplots=\count127
+\pgfplots@xmin@reg=\dimen164
+\pgfplots@xmax@reg=\dimen165
+\pgfplots@ymin@reg=\dimen166
+\pgfplots@ymax@reg=\dimen167
+\pgfplots@zmin@reg=\dimen168
+\pgfplots@zmax@reg=\dimen169
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotm
+arks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box41
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
+\ttl@toksa=\toks36
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen176
+\captionmargin@=\dimen177
+\captionwidth=\dimen178
+\caption@tempdima=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
+)
+\c@ContinuedFloat=\count128
+Package caption Info: listings package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
+\Gm@dimlist=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen191
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count134
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count135
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen192
+\Fld@menulength=\count136
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
+\Hy@SectionHShift=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+) (./natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+\XKV@depth=\count143
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryposit
+ioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count144
+\calc@Bcount=\count145
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count146
+\calc@Cskip=\skip53
+)
+\c@@todonotes@numberoftodonotes=\count147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count148
+\decimalpart=\count149
+)
+Package: xstring 2013/2/28  v1.7a  String manipulations (C Tellechea)
+)
+\AC@clearlist=\toks40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen197
+\lightrulewidth=\dimen198
+\cmidrulewidth=\dimen199
+\belowrulesep=\dimen200
+\belowbottomsep=\dimen201
+\aboverulesep=\dimen202
+\abovetopsep=\dimen203
+\cmidrulesep=\dimen204
+\cmidrulekern=\dimen205
+\defaultaddspace=\dimen206
+\@cmidla=\count150
+\@cmidlb=\count151
+\@aboverulesep=\dimen207
+\@belowrulesep=\dimen208
+\@thisruleclass=\count152
+\@lastruleclass=\count153
+\@thisrulewidth=\dimen209
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen210
+)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@AB=\insert224
+\bx@AC=\insert223
+\bx@AD=\insert222
+\bx@AE=\insert221
+\bx@AF=\insert220
+\bx@AG=\insert219
+\bx@AH=\insert218
+\bx@AI=\insert217
+\bx@AJ=\insert216
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+)
+\@indexfile=\write5
+\openout5 = `RT-fapesp.idx'.
+
+
+Writing index file RT-fapesp.idx
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/06/27 1.5pre1 listings language file
+)
+(./RT-fapesp.aux (./ape-desenhos.aux) (./ape-software.aux))
+\openout1 = `RT-fapesp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count154
+\scratchdimen=\dimen211
+\scratchbox=\box42
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen212
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
+\everyMPtoPDFconversion=\toks42
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count160
+
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.8}).
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 468.33257pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 715.87154pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=468.33257pt
+* \textheight=715.87154pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-31.87398pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box43
+Package backref Info: ** backref set up for natbib ** on input line 110.
+Package hyperref Info: Link coloring ON on input line 110.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count161
+)
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
+
+(./RT-fapesp.out) (./RT-fapesp.out)
+\@outlinefile=\write6
+\openout6 = `RT-fapesp.out'.
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 110.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 169.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 169.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 186.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 186.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 257.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 257.
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.257 \chapter
+              *{Resumo} [1
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 257.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 257.
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.257 \chapter
+              *{Resumo} [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+[3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+ [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 286--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Overfull \hbox (10.60095pt too wide) in paragraph at lines 306--309
+[]\T1/cmr/m/n/10.95 Thus, this re-port pre-sents im-ple-men-ted and fu-ture im-
+pro-ve-ments in the area of ??three-dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 312.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 312.
+[5]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 312.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 312.
+ [6
+
+] (./RT-fapesp.toc
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+ [7])
+\tf@toc=\write7
+\openout7 = `RT-fapesp.toc'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 315.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 315.
+ [8]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 315.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 341.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 341.
+ [9
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 341.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 341.
+ [10
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 341.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 350
+.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 355
+.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 356
+.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 357
+.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 364.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 364.
+[11]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 364.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 364.
+ [12
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 364.
+ (./RT-fapesp.lof
+Package acronym Info: Label `acro:3D' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
+Package acronym Info: Label `acro:STL' newly defined as it shall be overridden
+although it is yet undefined on input line 22.
+Package acronym Info: Label `acro:ABS' newly defined as it shall be overridden
+although it is yet undefined on input line 29.
+
+Overfull \hbox (5.88904pt too wide) in paragraph at lines 29--29
+ [][] [][][]\T1/cmr/m/n/10.95 Impressão em [][][] acrilonitrilo-butadieno-estir
+eno (\T1/cmr/m/it/10.95 Acry-lo-ni-trile Bu-ta-di-ene Sty-rene\T1/cmr/m/n/10.95
+ ) ([])[] 
+ []
+
+Package acronym Info: Label `acro:PLA' newly defined as it shall be overridden
+although it is yet undefined on input line 30.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 41.
+[13]
+Package acronym Info: Label `acro:HIPS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 59.
+Package acronym Info: Label `acro:PVA' newly defined as it shall be overridden
+although it is yet undefined on input line 61.
+)
+\tf@lof=\write8
+\openout8 = `RT-fapesp.lof'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 365.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 365.
+ [14]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 365.
+ (./RT-fapesp.lot)
+\tf@lot=\write9
+\openout9 = `RT-fapesp.lot'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 369.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 369.
+ [15
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 369.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 369.
+ [16
+
+] (./cap-introducao.tex
+Cap\'{\i }tulo 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+Package acronym Info: Label `acro:SLA' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+Package acronym Info: Label `acro:FDM' newly defined as it shall be overridden
+although it is yet undefined on input line 44.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+Package acronym Info: Label `acro:SLS' newly defined as it shall be overridden
+although it is yet undefined on input line 48.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 64.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 99.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 99.
+[3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
+Package acronym Info: Label `acro:UV' newly defined as it shall be overridden
+although it is yet undefined on input line 102.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+Package acronym Info: Label `acro:DMLS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 118.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 121.
+[4]
+Package acronym Info: Label `acro:SLM' newly defined as it shall be overridden
+although it is yet undefined on input line 122.
+Package acronym Info: Label `acro:SHS' newly defined as it shall be overridden
+although it is yet undefined on input line 122.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+Package acronym Info: Label `acro:MJM' newly defined as it shall be overridden
+although it is yet undefined on input line 124.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[][][]\T1/cmr/m/n/9 Pode-se as-sis-tir este pro-cesso no ví-deo apre-sen-tado n
+o sí-tio [][]$http : / / www . youtube . com / watch ? v =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 128.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 164.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 181.
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+) (./cap-desenvolvimento.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+[6]
+Cap\'{\i }tulo 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+<./figuras/barras-lisas.png, id=691, 461.47406pt x 483.30562pt>
+File: ./figuras/barras-lisas.png Graphic file (type png)
+
+<use ./figuras/barras-lisas.png>
+Package pdftex.def Info: ./figuras/barras-lisas.png used on input line 16.
+(pdftex.def)             Requested size: 281.0024pt x 294.2924pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+<./figuras/regua-frente.png, id=695, 756.57657pt x 261.97874pt>
+File: ./figuras/regua-frente.png Graphic file (type png)
+
+<use ./figuras/regua-frente.png>
+Package pdftex.def Info: ./figuras/regua-frente.png used on input line 27.
+(pdftex.def)             Requested size: 281.0024pt x 97.30238pt.
+
+<./figuras/regua-atras.png, id=696, 757.32938pt x 258.9675pt>
+File: ./figuras/regua-atras.png Graphic file (type png)
+
+<use ./figuras/regua-atras.png>
+Package pdftex.def Info: ./figuras/regua-atras.png used on input line 34.
+(pdftex.def)             Requested size: 281.0024pt x 96.08911pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+<./figuras/regua-laser.png, id=698, 624.83438pt x 353.06906pt>
+File: ./figuras/regua-laser.png Graphic file (type png)
+
+<use ./figuras/regua-laser.png>
+Package pdftex.def Info: ./figuras/regua-laser.png used on input line 43.
+(pdftex.def)             Requested size: 281.0024pt x 158.78801pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 49.
+[7
+
+ <./figuras/barras-lisas.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 50.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+<./figuras/teste-Z.png, id=708, 133.24782pt x 411.78844pt>
+File: ./figuras/teste-Z.png Graphic file (type png)
+
+<use ./figuras/teste-Z.png>
+Package pdftex.def Info: ./figuras/teste-Z.png used on input line 57.
+(pdftex.def)             Requested size: 93.66507pt x 289.4689pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+[8 <./figuras/regua-frente.png> <./figuras/regua-atras.png> <./figuras/regua-la
+ser.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+Package acronym Info: Label `acro:MDF' newly defined as it shall be overridden
+although it is yet undefined on input line 75.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<./figuras/porta-rolo-modelo.png, id=722, 423.08063pt x 405.76593pt>
+File: ./figuras/porta-rolo-modelo.png Graphic file (type png)
+
+<use ./figuras/porta-rolo-modelo.png>
+Package pdftex.def Info: ./figuras/porta-rolo-modelo.png used on input line 81.
+
+(pdftex.def)             Requested size: 234.16628pt x 224.5836pt.
+
+<./figuras/porta-rolo-laser.png, id=723, 456.95718pt x 409.53pt>
+File: ./figuras/porta-rolo-laser.png Graphic file (type png)
+
+<use ./figuras/porta-rolo-laser.png>
+Package pdftex.def Info: ./figuras/porta-rolo-laser.png used on input line 89.
+(pdftex.def)             Requested size: 281.0024pt x 251.84383pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<./figuras/porta-rolo-prototipo.jpg, id=725, 2569.6pt x 1927.2pt>
+File: ./figuras/porta-rolo-prototipo.jpg Graphic file (type jpg)
+
+<use ./figuras/porta-rolo-prototipo.jpg>
+Package pdftex.def Info: ./figuras/porta-rolo-prototipo.jpg used on input line 
+98.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 105.
+[9 <./figuras/teste-Z.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 105.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 112.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 115.
+[10 <./figuras/porta-rolo-modelo.png> <./figuras/porta-rolo-laser.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+Package acronym Info: Label `acro:PTFE' newly defined as it shall be overridden
+
+although it is yet undefined on input line 118.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+<./figuras/kit1.jpg, id=742, 2569.6pt x 1927.2pt>
+File: ./figuras/kit1.jpg Graphic file (type jpg)
+ <use ./figuras/kit1.jpg>
+Package pdftex.def Info: ./figuras/kit1.jpg used on input line 124.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/kit2.jpg, id=745, 2569.6pt x 1927.2pt>
+File: ./figuras/kit2.jpg Graphic file (type jpg)
+ <use ./figuras/kit2.jpg>
+Package pdftex.def Info: ./figuras/kit2.jpg used on input line 131.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+<./figuras/extruders-clamp.png, id=751, 361.35pt x 213.79875pt>
+File: ./figuras/extruders-clamp.png Graphic file (type png)
+
+<use ./figuras/extruders-clamp.png>
+Package pdftex.def Info: ./figuras/extruders-clamp.png used on input line 140.
+(pdftex.def)             Requested size: 281.0024pt x 166.25995pt.
+
+<./figuras/extruders-clamp-final-1.png, id=752, 437.38406pt x 417.81094pt>
+File: ./figuras/extruders-clamp-final-1.png Graphic file (type png)
+
+<use ./figuras/extruders-clamp-final-1.png>
+Package pdftex.def Info: ./figuras/extruders-clamp-final-1.png used on input li
+ne 147.
+(pdftex.def)             Requested size: 281.0024pt x 268.43088pt.
+
+<./figuras/extruders-clamp-final.png, id=753, 515.67656pt x 374.14781pt>
+File: ./figuras/extruders-clamp-final.png Graphic file (type png)
+
+<use ./figuras/extruders-clamp-final.png>
+Package pdftex.def Info: ./figuras/extruders-clamp-final.png used on input line
+ 154.
+(pdftex.def)             Requested size: 281.0024pt x 203.88652pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+<./figuras/extruders-clamp-prototipo.jpg, id=757, 2569.6pt x 1927.2pt>
+File: ./figuras/extruders-clamp-prototipo.jpg Graphic file (type jpg)
+
+<use ./figuras/extruders-clamp-prototipo.jpg>
+Package pdftex.def Info: ./figuras/extruders-clamp-prototipo.jpg used on input 
+line 163.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+<./figuras/impressora-2-extrusores.jpg, id=760, 1413.28pt x 1682.285pt>
+File: ./figuras/impressora-2-extrusores.jpg Graphic file (type jpg)
+
+<use ./figuras/impressora-2-extrusores.jpg>
+Package pdftex.def Info: ./figuras/impressora-2-extrusores.jpg used on input li
+ne 174.
+(pdftex.def)             Requested size: 281.0024pt x 334.47449pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 179.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+[11 <./figuras/porta-rolo-prototipo.jpg>]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+[12 <./figuras/kit1.jpg> <./figuras/kit2.jpg> <./figuras/extruders-clamp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 196.
+[13 <./figuras/extruders-clamp-final-1.png> <./figuras/extruders-clamp-final.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+<./figuras/arduino.png, id=781, 682.55pt x 659.46375pt>
+File: ./figuras/arduino.png Graphic file (type png)
+
+<use ./figuras/arduino.png>
+Package pdftex.def Info: ./figuras/arduino.png used on input line 203.
+(pdftex.def)             Requested size: 281.0024pt x 271.49883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 209.
+[14 <./figuras/extruders-clamp-prototipo.jpg> <./figuras/impressora-2-extrusore
+s.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Overfull \hbox (1.5538pt too wide) in paragraph at lines 212--213
+[]\T1/cmr/m/n/10.95 Outra mo-di-fi-ca-ção im-por-tante é o fi-la-mento uti-li-z
+ado pela im-pres-sora [][] ser mais fino ($\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10
+.95 ; \OT1/cmr/m/n/10.95 75\OML/cmm/m/it/10.95 mm$\T1/cmr/m/n/10.95 ). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 225.
+[15 <./figuras/arduino.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+<./figuras/pronterface-stl-to-gcode.png, id=807, 349.305pt x 255.95625pt>
+File: ./figuras/pronterface-stl-to-gcode.png Graphic file (type png)
+
+<use ./figuras/pronterface-stl-to-gcode.png>
+Package pdftex.def Info: ./figuras/pronterface-stl-to-gcode.png used on input l
+ine 232.
+(pdftex.def)             Requested size: 234.16628pt x 171.58742pt.
+Package acronym Info: Label `acro:CNC' newly defined as it shall be overridden
+although it is yet undefined on input line 237.
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+<./figuras/tela-slic3r-1.png, id=815, 764.8575pt x 520.94624pt>
+File: ./figuras/tela-slic3r-1.png Graphic file (type png)
+
+<use ./figuras/tela-slic3r-1.png>
+Package pdftex.def Info: ./figuras/tela-slic3r-1.png used on input line 253.
+(pdftex.def)             Requested size: 281.0024pt x 191.38782pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 256.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 256.
+[16 <./figuras/pronterface-stl-to-gcode.png>]
+<./figuras/tela-slic3r-2.png, id=822, 764.8575pt x 520.94624pt>
+File: ./figuras/tela-slic3r-2.png Graphic file (type png)
+
+<use ./figuras/tela-slic3r-2.png>
+Package pdftex.def Info: ./figuras/tela-slic3r-2.png used on input line 260.
+(pdftex.def)             Requested size: 281.0024pt x 191.38782pt.
+
+<./figuras/tela-slic3r-3.png, id=823, 764.8575pt x 520.94624pt>
+File: ./figuras/tela-slic3r-3.png Graphic file (type png)
+
+<use ./figuras/tela-slic3r-3.png>
+Package pdftex.def Info: ./figuras/tela-slic3r-3.png used on input line 267.
+(pdftex.def)             Requested size: 281.0024pt x 191.38782pt.
+
+<./figuras/tela-slic3r-4.png, id=824, 764.8575pt x 520.94624pt>
+File: ./figuras/tela-slic3r-4.png Graphic file (type png)
+
+<use ./figuras/tela-slic3r-4.png>
+Package pdftex.def Info: ./figuras/tela-slic3r-4.png used on input line 274.
+(pdftex.def)             Requested size: 281.0024pt x 191.38782pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 292.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 292.
+[17 <./figuras/tela-slic3r-1.png> <./figuras/tela-slic3r-2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+<./figuras/tela-pronterface.png, id=844, 981.6675pt x 489.83pt>
+File: ./figuras/tela-pronterface.png Graphic file (type png)
+
+<use ./figuras/tela-pronterface.png>
+Package pdftex.def Info: ./figuras/tela-pronterface.png used on input line 304.
+
+(pdftex.def)             Requested size: 468.33257pt x 233.68816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 311.
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 314.
+[18 <./figuras/tela-slic3r-3.png> <./figuras/tela-slic3r-4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+<./figuras/teste0.jpg, id=861, 2569.6pt x 1927.2pt>
+File: ./figuras/teste0.jpg Graphic file (type jpg)
+ <use ./figuras/teste0.jpg>
+Package pdftex.def Info: ./figuras/teste0.jpg used on input line 319.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+<./figuras/teste1.jpg, id=865, 2569.6pt x 1927.2pt>
+File: ./figuras/teste1.jpg Graphic file (type jpg)
+ <use ./figuras/teste1.jpg>
+Package pdftex.def Info: ./figuras/teste1.jpg used on input line 328.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 334.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 334.
+[19 <./figuras/tela-pronterface.png> <./figuras/teste0.jpg>]
+<./figuras/teste2.jpg, id=878, 2569.6pt x 1927.2pt>
+File: ./figuras/teste2.jpg Graphic file (type jpg)
+ <use ./figuras/teste2.jpg>
+Package pdftex.def Info: ./figuras/teste2.jpg used on input line 337.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 349.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 349.
+[20 <./figuras/teste1.jpg> <./figuras/teste2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 356.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 356.
+[21]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 356.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 356.
+[22
+
+]
+Cap\'{\i }tulo 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 356.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 363.
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 374.
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+<./figuras/termistor.jpg, id=897, 1176.395pt x 778.91pt>
+File: ./figuras/termistor.jpg Graphic file (type jpg)
+
+<use ./figuras/termistor.jpg>
+Package pdftex.def Info: ./figuras/termistor.jpg used on input line 380.
+(pdftex.def)             Requested size: 281.0024pt x 186.05083pt.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 385
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+Package acronym Info: Label `acro:NTC' newly defined as it shall be overridden
+although it is yet undefined on input line 387.
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 392.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 392.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+<./figuras/termistores-esquematico.png, id=911, 165.2574pt x 147.4308pt>
+File: ./figuras/termistores-esquematico.png Graphic file (type png)
+
+<use ./figuras/termistores-esquematico.png>
+Package pdftex.def Info: ./figuras/termistores-esquematico.png used on input li
+ne 409.
+(pdftex.def)             Requested size: 281.0024pt x 250.69878pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 416.
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 424.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 424.
+[24 <./figuras/termistor.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+<./figuras/teste-termistores.jpg, id=922, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-termistores.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-termistores.jpg>
+Package pdftex.def Info: ./figuras/teste-termistores.jpg used on input line 434
+.
+(pdftex.def)             Requested size: 187.33015pt x 249.76062pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 519.
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 527.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 527.
+[25 <./figuras/termistores-esquematico.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 529.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 529.
+[26 <./figuras/teste-termistores.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+<./figuras/teste-vibracao.jpg, id=942, 2569.6pt x 1927.2pt>
+File: ./figuras/teste-vibracao.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-vibracao.jpg>
+Package pdftex.def Info: ./figuras/teste-vibracao.jpg used on input line 547.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/vib-disposicao.png, id=943, 481.04718pt x 382.42876pt>
+File: ./figuras/vib-disposicao.png Graphic file (type png)
+
+<use ./figuras/vib-disposicao.png>
+Package pdftex.def Info: ./figuras/vib-disposicao.png used on input line 554.
+(pdftex.def)             Requested size: 281.0024pt x 223.39604pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+<./figuras/vib-243-bastante.jpg, id=948, 2569.6pt x 1927.2pt>
+File: ./figuras/vib-243-bastante.jpg Graphic file (type jpg)
+
+<use ./figuras/vib-243-bastante.jpg>
+Package pdftex.def Info: ./figuras/vib-243-bastante.jpg used on input line 563.
+
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/vib-243-pouco.jpg, id=949, 2569.6pt x 1927.2pt>
+File: ./figuras/vib-243-pouco.jpg Graphic file (type jpg)
+
+<use ./figuras/vib-243-pouco.jpg>
+Package pdftex.def Info: ./figuras/vib-243-pouco.jpg used on input line 570.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/vib-tekbond-128.jpg, id=950, 1927.2pt x 2569.6pt>
+File: ./figuras/vib-tekbond-128.jpg Graphic file (type jpg)
+
+<use ./figuras/vib-tekbond-128.jpg>
+Package pdftex.def Info: ./figuras/vib-tekbond-128.jpg used on input line 577.
+(pdftex.def)             Requested size: 281.0024pt x 374.64093pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+<./figuras/vib-nada.jpg, id=953, 2569.6pt x 1927.2pt>
+File: ./figuras/vib-nada.jpg Graphic file (type jpg)
+
+<use ./figuras/vib-nada.jpg>
+Package pdftex.def Info: ./figuras/vib-nada.jpg used on input line 586.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/vib-parloque.jpg, id=954, 2569.6pt x 1927.2pt>
+File: ./figuras/vib-parloque.jpg Graphic file (type jpg)
+
+<use ./figuras/vib-parloque.jpg>
+Package pdftex.def Info: ./figuras/vib-parloque.jpg used on input line 593.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 599.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 599.
+[27 <./figuras/teste-vibracao.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+
+ []
+
+<./figuras/vib-seemeCNC.png, id=964, 819.06pt x 420.57124pt>
+File: ./figuras/vib-seemeCNC.png Graphic file (type png)
+
+<use ./figuras/vib-seemeCNC.png>
+Package pdftex.def Info: ./figuras/vib-seemeCNC.png used on input line 608.
+(pdftex.def)             Requested size: 281.0024pt x 144.28864pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 611.
+[28 <./figuras/vib-disposicao.png> <./figuras/vib-243-bastante.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 614.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 614.
+[29 <./figuras/vib-243-pouco.jpg> <./figuras/vib-tekbond-128.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 616.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 616.
+[30 <./figuras/vib-nada.jpg> <./figuras/vib-parloque.jpg> <./figuras/vib-seemeC
+NC.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 617.
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+
+Overfull \hbox (8.05927pt too wide) in paragraph at lines 631--632
+[]\T1/cmr/m/n/10.95 Foi uti-li-zada uma car-caça de uma im-pres-sora [][] com e
+x-tru-sor fixo para fa-zer o teste, implementou-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
+
+ []
+
+<./figuras/teste-extrusao.jpg, id=989, 2569.6pt x 1927.2pt>
+File: ./figuras/teste-extrusao.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-extrusao.jpg>
+Package pdftex.def Info: ./figuras/teste-extrusao.jpg used on input line 639.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+<./figuras/teste-extrusao-detalhe.jpg, id=990, 2569.6pt x 1927.2pt>
+File: ./figuras/teste-extrusao-detalhe.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-extrusao-detalhe.jpg>
+Package pdftex.def Info: ./figuras/teste-extrusao-detalhe.jpg used on input lin
+e 646.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 651.
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--655
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 655.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 655.
+[31 <./figuras/teste-extrusao.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 656--657
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
+
+ []
+
+<./figuras/impressao-3mm.jpg, id=1004, 1927.2pt x 2569.6pt>
+File: ./figuras/impressao-3mm.jpg Graphic file (type jpg)
+
+<use ./figuras/impressao-3mm.jpg>
+Package pdftex.def Info: ./figuras/impressao-3mm.jpg used on input line 664.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+<./figuras/peca-3mm.jpg, id=1005, 1927.2pt x 2569.6pt>
+File: ./figuras/peca-3mm.jpg Graphic file (type jpg)
+
+<use ./figuras/peca-3mm.jpg>
+Package pdftex.def Info: ./figuras/peca-3mm.jpg used on input line 671.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
+
+ []
+
+<./figuras/tubo-conversor.jpg, id=1007, 2569.6pt x 1927.2pt>
+File: ./figuras/tubo-conversor.jpg Graphic file (type jpg)
+
+<use ./figuras/tubo-conversor.jpg>
+Package pdftex.def Info: ./figuras/tubo-conversor.jpg used on input line 680.
+(pdftex.def)             Requested size: 234.16628pt x 175.61661pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
+
+ []
+
+<./figuras/limpeza.jpg, id=1009, 1927.2pt x 2569.6pt>
+File: ./figuras/limpeza.jpg Graphic file (type jpg)
+
+<use ./figuras/limpeza.jpg>
+Package pdftex.def Info: ./figuras/limpeza.jpg used on input line 689.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+
+ []
+
+<./figuras/insercao-tubo.jpg, id=1012, 1927.2pt x 2569.6pt>
+File: ./figuras/insercao-tubo.jpg Graphic file (type jpg)
+
+<use ./figuras/insercao-tubo.jpg>
+Package pdftex.def Info: ./figuras/insercao-tubo.jpg used on input line 698.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+<./figuras/altura-tubo.jpg, id=1013, 1927.2pt x 2569.6pt>
+File: ./figuras/altura-tubo.jpg Graphic file (type jpg)
+
+<use ./figuras/altura-tubo.jpg>
+Package pdftex.def Info: ./figuras/altura-tubo.jpg used on input line 705.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
+
+ []
+
+<./figuras/impressao-175mm.jpg, id=1016, 1927.2pt x 2569.6pt>
+File: ./figuras/impressao-175mm.jpg Graphic file (type jpg)
+
+<use ./figuras/impressao-175mm.jpg>
+Package pdftex.def Info: ./figuras/impressao-175mm.jpg used on input line 714.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+<./figuras/peca-175mm.jpg, id=1017, 1927.2pt x 2569.6pt>
+File: ./figuras/peca-175mm.jpg Graphic file (type jpg)
+
+<use ./figuras/peca-175mm.jpg>
+Package pdftex.def Info: ./figuras/peca-175mm.jpg used on input line 721.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--729
+
+ []
+
+<./figuras/teste-azul-claro.jpg, id=1018, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-azul-claro.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-azul-claro.jpg>
+Package pdftex.def Info: ./figuras/teste-azul-claro.jpg used on input line 732.
+
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+
+<./figuras/teste-azul-translucido.jpg, id=1021, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-azul-translucido.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-azul-translucido.jpg>
+Package pdftex.def Info: ./figuras/teste-azul-translucido.jpg used on input lin
+e 739.
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+
+<./figuras/teste-cinza.jpg, id=1024, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-cinza.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-cinza.jpg>
+Package pdftex.def Info: ./figuras/teste-cinza.jpg used on input line 746.
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+
+<./figuras/teste-preto.jpg, id=1027, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-preto.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-preto.jpg>
+Package pdftex.def Info: ./figuras/teste-preto.jpg used on input line 753.
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+
+<./figuras/teste-verde-translucido.jpg, id=1030, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-verde-translucido.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-verde-translucido.jpg>
+Package pdftex.def Info: ./figuras/teste-verde-translucido.jpg used on input li
+ne 760.
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+
+<./figuras/teste-hips.jpg, id=1033, 1698.345pt x 1746.525pt>
+File: ./figuras/teste-hips.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-hips.jpg>
+Package pdftex.def Info: ./figuras/teste-hips.jpg used on input line 768.
+(pdftex.def)             Requested size: 140.50119pt x 144.4685pt.
+
+<./figuras/teste-Macomp.jpg, id=1036, 2569.6pt x 1927.2pt>
+File: ./figuras/teste-Macomp.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-Macomp.jpg>
+Package pdftex.def Info: ./figuras/teste-Macomp.jpg used on input line 776.
+(pdftex.def)             Requested size: 281.0024pt x 210.72816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 782.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 782.
+[32 <./figuras/teste-extrusao-detalhe.jpg>]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 782.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 782.
+[33 <./figuras/impressao-3mm.jpg> <./figuras/peca-3mm.jpg>]
+<./figuras/impressao-PVA.jpg, id=1050, 1927.2pt x 2569.6pt>
+File: ./figuras/impressao-PVA.jpg Graphic file (type jpg)
+
+<use ./figuras/impressao-PVA.jpg>
+Package pdftex.def Info: ./figuras/impressao-PVA.jpg used on input line 785.
+(pdftex.def)             Requested size: 234.16628pt x 312.22038pt.
+
+<./figuras/teste-PVA.jpg, id=1053, 1927.2pt x 2569.6pt>
+File: ./figuras/teste-PVA.jpg Graphic file (type jpg)
+
+<use ./figuras/teste-PVA.jpg>
+Package pdftex.def Info: ./figuras/teste-PVA.jpg used on input line 792.
+(pdftex.def)             Requested size: 140.50119pt x 187.30086pt.
+Package acronym Info: Label `acro:ND' newly defined as it shall be overridden
+although it is yet undefined on input line 797.
+
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+ []
+
+Package acronym Info: Label `acro:Id' newly defined as it shall be overridden
+although it is yet undefined on input line 799.
+
+Overfull \hbox (30.88875pt too wide) in paragraph at lines 803--835
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+[34 <./figuras/tubo-conversor.jpg> <./figuras/limpeza.jpg>]
+
+LaTeX Warning: Text page 35 contains only floats.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+[35 <./figuras/insercao-tubo.jpg> <./figuras/altura-tubo.jpg>]
+
+LaTeX Warning: Text page 36 contains only floats.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 840.
+[36 <./figuras/impressao-175mm.jpg> <./figuras/peca-175mm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 872.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 872.
+[37 <./figuras/teste-azul-claro.jpg> <./figuras/teste-azul-translucido.jpg> <./
+figuras/teste-cinza.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 872.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 872.
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 876.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 876.
+[39 <./figuras/teste-preto.jpg> <./figuras/teste-verde-translucido.jpg> <./figu
+ras/teste-hips.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 877--878
+
+ []
+
+) (./cap-conclusoes.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+[40 <./figuras/teste-Macomp.jpg> <./figuras/impressao-PVA.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+[41 <./figuras/teste-PVA.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+[42
+
+]
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+[43]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+ [44]
+\openout2 = `ape-desenhos.aux'.
+
+ (./ape-desenhos.tex
+Ap\^endice A.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (23.5766pt too wide) in paragraph at lines 6--7
+[]\T1/cmr/m/n/10.95 Arquivos fal-tan-tes po-dem ser en-con-tra-dos no sí-tio: [
+][]$https : / / github . com / Metamaquina / Metamaquina2$[][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+[45
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 124.
+ [46]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 184.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 184.
+[47]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 245.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 245.
+ [48]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 252.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 310.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 310.
+[49]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+ [50]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 432.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 432.
+[51]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 492.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 492.
+ [52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 557.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 557.
+[53]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 619.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 619.
+ [54]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 683.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 683.
+[55]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 742.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 742.
+ [56]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 764.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 806.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 806.
+[57]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 864.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 864.
+ [58]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 919.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 919.
+[59]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 930.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 982.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 982.
+ [60]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1046.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1046.
+[61])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+ [62]
+\openout2 = `ape-software.aux'.
+
+ (./ape-software.tex
+Ap\^endice B.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (42.53162pt too wide) in paragraph at lines 6--7
+[]\T1/cmr/m/n/10.95 Arquivos fal-tan-tes po-dem ser en-con-tra-dos no sí-tio: [
+][]$https : / / github . com / Metamaquina / Repetier-[]Firmware$[][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+[63
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 124.
+ [64]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 134.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 181.
+[65]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 240.
+ [66]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 300.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 300.
+[67]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 357.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 357.
+ [68]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 413.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 413.
+[69]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 470.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 470.
+ [70]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 526.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 526.
+[71]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 575.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 575.
+ [72]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 633.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 633.
+[73]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 696.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 696.
+ [74]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 756.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 756.
+[75]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 817.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 817.
+ [76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 873.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 873.
+[77]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 932.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 932.
+ [78]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 986.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 986.
+[79]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1040.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1040.
+ [80]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1095.
+[81]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1149.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1149.
+ [82]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1200.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1200.
+[83]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1254.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1254.
+ [84]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1306.
+[85]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1354.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1354.
+ [86]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.73085pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1412.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1412.
+[87]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1436.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1477.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1477.
+ [88]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1505.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1510.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1533.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1544.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1544.
+[89]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1558.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 387.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 387.
+ [90] (./RT-fapesp.bbl (./RT-fapesp.brf)
+\tf@brf=\write10
+\openout10 = `RT-fapesp.brf'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 1142) in paragraph at lines 27--27
+[]\T1/cmr/m/n/10.95 Christopher Bar-natt.  3d prin-ting di-rec-tory.  [][]$http
+ : / / explainingthefuture . com / 3d _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\T1/cmr/m/n/10.95 Layerwise-[]Builds-[]the-[]Worlds-[]First-[]PatientSpeci^^\c-
+[]Lower-[]Jaw-[]Using-[]Laser-[]Technology .
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 92--92
+\T1/cmr/m/n/10.95 o-ple in 3d prin-ting.  [][]$http : / / www . 3dsystems . com
+ / sites / www . 3dsystems . com / ^^\les /
+ []
+
+
+Overfull \hbox (42.85475pt too wide) in paragraph at lines 92--92
+\T1/cmr/m/n/10.95 06182012-[]3d-[]systems-[]ceo-[]and-[]co-[]founder-[]anchor-[
+]list-[]of-[]20-[]most-[]in^^]uential-[]people-[]in-[]3d-[]printing .
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 120.
+[91
+
+
+
+]) 
+AED: lastpage setting LastPage
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 405.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 405.
+[92]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 405.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
+ (./RT-fapesp.aux (./ape-desenhos.aux) (./ape-software.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
+Package rerunfilecheck Info: File `RT-fapesp.out' has not changed.
+(rerunfilecheck)             Checksum: 16256BE5E9FFDA9B5C7539BA960D539A;3090.
+Package rerunfilecheck Info: File `RT-fapesp.brf' has not changed.
+(rerunfilecheck)             Checksum: 37195AD54E2EFBBBB4367BBF22A83190;1783.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 405.
+ ) 
+Here is how much of TeX's memory you used:
+ 31488 strings out of 495007
+ 646743 string characters out of 6180695
+ 1061969 words of memory out of 5000000
+ 31212 multiletter control sequences out of 15000+600000
+ 21705 words of font info for 50 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 63i,19n,93p,788b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </tmp/texfonts/pk/ljfou
+r/jknappen/ec/ecrm1000.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecti1000.600
+pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </tmp/texfonts/pk/ljfo
+ur/jknappen/ec/ecti0900.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm0600.60
+0pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </tmp/texfonts/pk/ljf
+our/jknappen/ec/ecrm0800.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm0900.6
+00pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </tmp/texfonts/pk/lj
+four/jknappen/ec/ecbx1728.600pk> </home/sara/.texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1095.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </tmp
+/texfonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </tmp/texfonts/pk/ljfour/jknapp
+en/ec/eccc1440.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </tm
+p/texfonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on RT-fapesp.pdf (110 pages, 40609895 bytes).
+PDF statistics:
+ 5404 PDF objects out of 6186 (max. 8388607)
+ 4422 compressed objects within 45 object streams
+ 2875 named destinations out of 2984 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
+

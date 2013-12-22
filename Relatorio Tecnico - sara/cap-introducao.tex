@@ -1,0 +1,193 @@
+%% ------------------------------------------------------------------------- %%
+\chapter{Introdução}
+\label{cap:introducao}
+
+A impressão \ac{3D} abordada neste relatório consiste em uma tecnologia onde objetos são obtidos através da deposição de camadas de material em um processo que usualmente demora algumas horas.\\
+
+Esta tecnologia possibilita construir um objeto sólido a partir de um modelo computacional, em diversos materiais, a ponto de se fabricar alimentos, brinquedos, obras de arte, joias, órgãos, dentre outros.\\
+
+Esta tecnologia, utilizada antes como prototipagem rápida na área da engenharia invadiu diversos ramos do conhecimento e tem-se mostrado mais importante e cada vez mais inovadora para o futuro próximo.\\
+
+Neste capítulo será apresentado um breve histórico sobre a impressão \ac{3D}, as tecnologias desenvolvidas e utilizadas atualmente e o seu funcionamento.\\
+
+Serão apresentadas as áreas de atuação desta tecnologia que têm ganhado destaque.\\
+
+Por fim, é apresentado o objetivo deste relatório técnico e suas principais contribuições neste ramo de atuação.\\
+
+%%% ------------------------------------------------------------------------- %%
+\section{Considerações Preliminares}
+\label{sec:consideracoes_preliminares} 
+
+Este relatório é fruto do trabalho e pesquisa realizada pela autora durante a sua vigência na \emph{Metamáquina}. Portanto, todos os dados obtidos, equipamentos utilizados, e produtos elaborados farão parte da contingência desta empresa e para a inovação de seus produtos.\\
+
+Todos os \emph{softwares} utilizados para a realização deste relatório são livres, de código aberto e estão disponibilizados na internet.\\
+
+Assim que consolidada a nova impressora com extrusão dupla, o seu projeto será disponibilizado no repositório do \emph{Github} da \emph{Metamáquina} na internet, pois também segue a filosofia de utilização livre e aberta.\\
+
+O \emph{software} livre e o código aberto permitem a distribuição de conhecimento para todos e a livre utilização pelo usuário. Também é possível o seu aprimoramento através de usuários e desenvolvedores que tenham interesse neste ramo.\\
+
+Desta forma, torna-se uma forma de aprimoramento, melhoria de custo-benefício e superação de desafios para o setor de impressão \ac{3D}.\\
+
+%%% ------------------------------------------------------------------------- %%
+\section{Histórico}
+
+Em 1860, \emph{François Willème} foi capaz de capturar um objeto em \ac{3D} utilizando câmeras ao seu redor, criando a fotoescultura \cite{Sturm}.\\
+
+Em 1892, \emph{Blanther} propôs um método de fatiamento para a produção de mapas topográficos \cite{jtec}.\\ 
+
+Em 1972, \emph{Mastubara}, pertencente à \emph{Mitsubishi Motors}, propôs a utilização de fotopolímeros a fim de elaborar camadas de objetos \cite{Beaman}.\\
+
+Em 1981, \emph{Hideo Kodama}, estudioso pertencente à \emph{Nagoya Municipal Industrial Research Institute} publicou o primeiro relato a despeito de um sistema de prototipagem rápida utilizando fotopolímero \cite{RapidTech}.\\
+
+Em 1984, \emph{Charles Hull}, fundador da empresa \emph{3D Systems}, foi o responsável pela criação do \ac{SLA}, que foi patenteado em 1987. Esta tecnologia permitiu elaborar um modelo \ac{3D} a partir da atuação do laser em um fotopolímero \cite{Schutzer}.\\  
+
+Em 1991, a \emph{Stratasys}\footnote{Maiores informações sobre a Stratasys podem ser encontradas no sítio: \url{http://www.stratasys.com}} produziu o primeiro equipamento \ac{FDM} \cite{Stratasys}. Esse método utiliza polímero e um bico extrusor, que deposita camadas plásticas sob uma chapa aquecida. Essa tecnologia foi abordada nos experimentos descritos neste relatório técnico.\\
+
+Em 1992, a empresa \emph{3D Systems} elaborou a primeira máquina de impresão \ac{3D} \ac{SLA} \cite{3DSystems}.\\
+
+Neste mesmo ano a \emph{DTM} produziu a primeira máquina \ac{SLS}, que possui tecnologia similar à \ac{SLA}, porém utiliza laser para fundir pó ao invés de solidificar líquidos poliméricos \cite{Contuzzi}.\\
+
+Em 1994, foi lançada a impressora de cera pela empresa \emph{ModelMaker} \cite{Wohlers}.\\
+
+Em 1997, a empresa \emph{Aeromet} inventou a técnica de manufatura por laser aditivo \cite{Costa}.\\
+
+Em 1999, cientistas foram capazes de utilizar a impressão \ac{3D} para elaborar um suporte para permitir o crescimento de células de pacientes, a fim de gerar novos órgãos a serem transplantados \cite{LiveScience}.\\
+
+No ano 2000 foi obtida a primeira impressora jato tinta \ac{3D}, produzida pela empresa \emph{Object Geometries}\footnote{Corresponde à patente americana denominada \emph{Apparatus and method for raised and special effects printing using inkjet technology}, de número $6644763$}.\\
+
+Neste mesmo ano foi elaborada a primeira impressora \ac{3D} multicolorida, através da empresa \emph{Z Corporation} \cite{ZCorp}.\\
+
+Em 2001, foi lançada ao mercado a primeira impressora \ac{3D} compacta pela empresa \emph{Solidimension} \cite{Grimm}.\\
+
+Em 2002, foi impresso um rim humano em miniatura pelo \emph{Wake Forest Institue for Regenerative Medicine}. Os cientistas almejavam imprimir órgãos totalmente funcionais e implantáveis. Este evento e outros importantes na área biomédica são apresentados na referência \cite{BMC}.\\
+
+Em 2005, o projeto \emph{Reprap} emergiu graças ao \emph{Dr. Adrian Bowyer}, da \emph{University of Bath}. Este projeto foi inovador dado ao fato de ser elaborado em código aberto e \emph{software} livre, incentivando a utilização e desenvolvimento do ramo de impressão \ac{3D} \cite{AB}.\\
+
+Em 2008, o ramo da impressão \ac{3D} teve grandes descobertas:\\
+
+Surgiu outra característica marcante do projeto da \emph{Reprap}, a capacidade da própria impressora produzir, em grande quantidade, muitos de seus componentes estruturais.\\
+
+A empresa \emph{Stratasys} produziu o primeiro sistema \ac{FDM} biocompatível \cite{biom}.\\
+
+A empresa \emph{Shapeways} elaborou um sítio de venda de modelos a serem impressos em \ac{3D} \cite{Shapeways}.\\
+
+A empresa \emph{Makerbot} produziu um sítio de compartilhamento de modelos gratuitos e pagos para impressão \ac{3D} \cite{Makerbot}.\\
+
+Em 2009, também ocorreram avanços importantes:\\
+
+A empresa \emph{Makerbot} produziu um kit para montar uma impressora \ac{3D} para o público em geral \cite{Makerbot}.\\
+
+A empresa \emph{Organovo} elaborou a primeira impressão de um vaso sanguíneo através de impressão \ac{3D} \cite{Organovo}.\\
+
+Neste mesmo ano, \emph{Cody Wilson}, da empresa \emph{Defense Distributed}, produziu um modelo para impressão de uma arma em \ac{3D} \cite{Gun}.\\ 
+
+Em 2011, produziu-se o primeiro carro através do uso de impressão \ac{3D}, denominado \emph{Urbee} através da empresa \emph{Kor Ecologic}. Através do sítio \cite{Eco}, pode-se encontrar o segundo modelo deste carro.\\
+
+No ano de 2012 ocorreram outros desenvolvimentos interessantes neste ramo:\\
+
+Foi elaborado o primeiro implante de mandíbula, produzido através do uso de impressão \ac{3D} na Holanda pela empresa \emph{Layerwise} \cite{Layerwise}.\\
+
+Um rim elaborado com impressão \ac{3D} foi projetado e implantado em um paciente pelo cirurgião \emph{Anthony Atala} \cite{Atala}. Este médico tem sido um dos responsáveis por incríveis avanços na área médica utilizando-se a impressão de células do próprio paciente para reconstrução de tecidos e órgãos.\\
+
+Em 2013, ano atual deste relatório, esta área encontra-se em pleno desenvolvimento e tem se destacado em todos os meios de comunicação:\\
+
+Foi realizado um implante parcial de rosto no paciente \emph{Eric Moger} através de impressão \ac{3D} \cite{Gizmodo}.\\
+
+O sítio da \emph{Defense Distributed} foi obrigado a retirar os projetos da primeira arma impressa em \ac{3D} do ar \cite{Defdist}.\\
+
+A própria empresa \emph{Metamáquina} tem aparecido recorrentemente em diversos meios de comunicação.\\
+
+\section{Tecnologias de Impressão Existentes}
+
+A impressão estereolitográfica (também conhecida por \ac{SLA}), corresponde a uma cuba com uma plataforma perfurada posicionada um pouco abaixo do nível superficial de polímero líquido fotocurável. Um feixe de laser \ac{UV} desenha a primeira fatia de um objeto na superfície do líquido, fazendo com que uma camada muito fina de fotopolímero endureça.\\
+
+A plataforma é então abaixada e outra fatia é desenhada e endurecida pelo laser. Outra fatia é então criada, e assim sucessivamente, até que o objeto seja impresso e possa ser removido da cuba de fotopolímero, drenando o excesso de líquido, e curado.\\
+
+Impressoras estereolitográficas são consideradas um dos tipos mais precisos de fabricação de objetos em \ac{3D}, com espessura por camada de apenas $0,06$ milímetros ($0,0025$ de polegada) \cite{3dgraf}.\\
+
+Outra tecnologia de impressão \ac{3D} é a \ac{FDM}, que consiste na utilização de um material semi-líquido (normalmente utiliza-se um polímero termoplástico quente), que é extrudado a partir de um bico com temperatura controlada. Este método é capaz de produzir objetos bastante robustos para um alto grau de precisão. Um dos principais benefícios desta técnica é que os objetos podem ser feitos com termoplásticos tradicionais de moldagem por injeção.\\
+
+A maioria das impressoras \ac{3D} do tipo \ac{FDM} podem imprimir com o polímero \ac{ABS} como o bioplástico biodegradável \ac{PLA}, que é produzido a partir de óleos alternativos orgânicos. Os desenvolvimentos na área da biologia sintética permitiram a produção direta de \ac{PLA} a partir de diversos materiais.\\
+
+Além de ser utilizado para produzir objetos poliméricos, as impressoras \ac{FDM} também têm a capacidade de imprimir materiais parcialmente líquidos. As aplicações se diversificaram, sendo capazes de abranger a área de impressão de alimentos até impressoras de concreto. Estas poderão, no futuro, permitir que prédios inteiros (ou grandes partes dos mesmos), sejam impressos em \ac{3D}.\\
+
+Uma companhia chamada \emph{Objet} desenvolveu um processo chamado \emph{PolyJet Matrix}. Este sistema emite jatos com dois polímeros líquidos fotocuráveis através de uma cabeça de impressão de $96$ bicos. Cada camada do objeto é curada por uma luz \ac{UV} após a impressão. Uma das principais vantagens deste processo é a de permitir que a impressão possa utilizar diversos materiais, variando a combinação dos polímeros fotocuráveis lançados pela cabeça de impressão \cite{objet}.\\
+
+Outra tecnologia de impressão \ac{3D} existente é a \ac{SLS} ou sinterização seletiva a laser. Esta tecnologia constrói objetos, estabelecendo uma fina camada de pó e, em seguida, utilizando-se um laser para fundir seletivamente alguns de seus grânulos. As impressoras \ac{SLS} \ac{3D} podem produzir objetos de diversos materiais em pó. Estes incluem ceras, poliestireno, nylon, vidro, cerâmica, aço inoxidável, titânio, alumínio, ligas de cobalto-cromo etc. Durante a impressão, os grânulos não-ligados (fundidos) servem para apoiar o objeto durante a impressão. Quando este processo for finalizado, quase todo o excesso de matéria-prima poderá ser reutilizado.\\
+
+Quando a tecnologia \ac{SLS} é utilizada para produzir objetos metálicos, este processo denomina-se \ac{DMLS}. Objetos metálicos originados através de  uma impressora \ac{3D} \ac{DMLS} são cerca de $99,99\%$ densos e, portanto, podem substituir peças de metal na maior parte de suas aplicações \cite{3trpd}.\\
+
+Enquanto o sistema \ac{DMLS} \ac{3D} imprime objetos metálicos, é possível utilizar o processo de sinterização a laser para produzir moldes. Um objeto de cera é impresso em \ac{3D}, derrama-se gesso em torno do objeto. Quando aquecida, a cera derrete e é removida, assim o molde de gesso fica pronto para receber metal fundido. Quando o metal e o gesso são resfriados, a peça pode ser retirada e está pronta para sua utilização.\\
+
+Outra técnica de impressão é a \ac{SLM}. Essa técnica utiliza raio laser para fundir completamente os grânulos de pó que formam um objeto, em vez de apenas os aquecer o suficiente para fundi-los juntos. Outra variante, uma técnica chamada \ac{SHS} utiliza uma cabeça de impressão térmica (ao invés de laser), para aquecer as camadas de um pó termoplástico \cite{blueprinter}.\\
+
+Outra tecnologia de impressão \ac{3D} muito comum é a \ac{MJM}. Essa tecnologia constrói objetos com sucessivas camadas de pó, com uma cabeça de impressão a jato de tinta, utilizada para pulverizar uma solução ligante que, seletivamente, cola apenas os grânulos que fazem parte do objeto a ser impresso.\\
+
+Algumas impressoras \ac{MJM} são capazes de pulverizar a solução ligante em quatro cores diferentes, assim, torna-se possível criar objetos \ac{3D} a cores com até $600x540$dpi de resolução\footnote{Pode-se assistir este processo no vídeo apresentado no sítio \url{http://www.youtube.com/watch?v=7QP73uTJApw&NR=1}.}.\\
+
+\section{Condição Atual}
+
+Atualmente, o setor de impressão \ac{3D} tem sido englobado por muitas áreas. Para algumas delas são utilizadas impressoras comerciais, tornando-se necessário desembolsar uma quantia superior a $20$ mil dólares por unidade \cite{ExpFut}. São impressoras de alta precisão, robustas e de grandes dimensões.\\
+
+Para impressões esporádicas, pode-se cogitar utilizar um serviço de \emph{bureau online}, com empresas que imprimem objetos, desta forma ampliou-se a utilização da impressão \ac{3D}. Temos como exemplo a \emph{Garagem Fab Lab} que realiza este tipo de serviço.\\
+
+Para desenvolvedores e interessados no ramo, existem kits à venda. Com eles é possível aprender a construir uma impressora \ac{3D}. Para quem não tem interesse em montar uma máquina, existem empresas, tais como a \emph{Metamáquina}, que vendem impressoras \ac{3D} de baixo custo.\\
+
+Os objetos impressos normalmente não são utilizados para utilização final, portanto, esta tecnologia era primordialmente considerada para a prototipagem rápida ou para elaboração de moldes.\\
+
+Na engenharia, a impressão \ac{3D} é utilizada para a realização de testes de produtos antes de sua produção em larga escala, tornando diversas alterações mais rápidas, eficazes e econômicas \cite{ExpFut}.\\
+
+Os ramos de atuação continuam em crescimento: automóveis, joias, brinquedos, máquinas, embalagens, ramos médicos de próteses, órgãos para transplante, recuperação de tecidos vivos, criação de moldes auriculares, criação de coroas, pontes e artifícios dentários, armas de uso livre e de difícil detecção etc \cite{ExpFut}.\\
+
+Alguns setores utilizam a impressão \ac{3D} como produto final, para criar objetos de iluminação, móveis, bandejas, bolsas, joias, óculos, tênis, partes de automóveis, dentre outros \cite{ExpFut}.\\
+
+Futuramente acredita-se na possibilidade de transplante de diversos órgãos utilizando a técnica de impressão \ac{3D}; no aperfeiçoamento e no baixo custo de impressoras para uso pessoal; na melhoria da tecnologia de impressão e criação de diversos materiais novos imprimíveis.\\
+
+Provavelmente, a precisão será aprimorada, obtendo-se peças mais detalhadas, de maior qualidade. Também poderá ser aperfeiçoada a utilização de múltiplas cores na impressão \ac{3D} \cite{ExpFut}.\\
+
+Não se sabe ao certo até quanto será possível expandir esta área, mas, por enquanto, esta tecnologia tem sido cada vez mais inovadora e se tornará mais presente no dia-a-dia.\\
+
+%% ------------------------------------------------------------------------- %%
+\section{Objetivos}
+\label{sec:objetivo} 
+Os objetivos deste relatório técnico são os de aprimorar o conhecimento na área de impressão \ac{3D}.\\
+
+Serão apresentados projetos de melhorias de fabricação do modelo da \emph{Metamáquina 2}, consistindo no projeto de duas réguas de calibração e do teste de barras.\\
+
+Será apresentado o projeto e construção de um protótipo de um porta rolo de filamento para a impressora \ac{3D}.\\
+
+Será apresentado o projeto de uma nova impressora \ac{3D} com extrusão dupla.
+
+E, por fim, serão apresentados os resultados de diversos testes realizados em bancadas: medição de temperatura, avaliação de vibração durante a operação, extrusão e retração durante a operação e impressão de diversos filamentos de cores, materiais e diâmetros distintos.\\
+
+% ------------------------------------------------------------------------- %%
+\section{Contribuições}
+\label{sec:contribucoes}
+
+As principais contribuições deste trabalho são as de apresentar resultados de testes e projetos para incrementar o ramo de impressão \ac{3D} de baixo custo, nos seguintes aspectos:
+
+\begin{itemize}
+	\item Melhorias funcionais para impressoras \ac{3D};\\
+	
+	\item Melhorias para a fabricação de impressoras \ac{3D};\\
+
+	\item Testes realizados em bancadas a fim de avaliar a qualidade de matérias-primas e para a resolução de determinados problemas;\\
+
+	\item Projeto de uma nova impressora \ac{3D} com extrusão dupla.
+
+\end{itemize}
+
+%% ------------------------------------------------------------------------- %%
+\section{Organização do Trabalho}
+\label{sec:organizacao_trabalho}
+
+No Capítulo~\ref{cap:projetos}, serão apresentados os projetos referentes às réguas de calibração, ao teste de barras roscadas, ao porta rolo de filamento e à impressora \ac{3D} com extrusão dupla.\\
+
+No Capítulo~\ref{cap:testes}, serão apresentados os testes referentes às bancadas de medição de temperatura, vibração, extrusão, retração e impressão de filamentos diversos.\\
+
+Finalmente, no Capítulo~\ref{cap:conclusoes} são discutidas as conclusões obtidas neste
+relatório.\\
+
+O \emph{script} efetuado para a elaboração dos desenhos no \emph{sofware} \emph{OpensCAD} encontra-se disponível no Apêndice \ref{ape:desenhos}.\\
+
+O \emph{script} efetuado para a elaboração dos testes no \emph{sofware} \emph{Arduino IDE} encontra-se disponível no Apêndice \ref{ape:software}.
